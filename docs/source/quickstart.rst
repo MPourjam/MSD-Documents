@@ -1,11 +1,12 @@
 Quickstart
 ==========
+.. _quickstart:
 
-.. _create_user:
+.. _Create User:
 
 .. include::Registeration/user_submit.rst
 
-.. _create_project:
+.. _Create Project:
 
 .. include::Registeration/project_submit.rst
 
