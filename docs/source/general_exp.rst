@@ -1,6 +1,10 @@
 MSD
 ===
 
+.. autosummary::
+   :toctree: generated
+
+
 .. _Database Structure:
 
 ******************
