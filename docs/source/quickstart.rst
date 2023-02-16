@@ -9,53 +9,53 @@ Registeration of datasets to MSD
     In this tutorial we go through the steps you need to take to upload your dataset (i.e: 16S Sequences) to MSD.
     You need to follow the steps in order.
 
-Creating Account at MSD
------------------------
+Creating Account
+----------------
 
 .. _Create User:
 
-.. include::./Registeration/user_submit.rst
+.. literalinclude:: ./Registeration/user_submit.rst
 
 
-Defining Your Project at MSD
-----------------------------
+Defining Your Project
+---------------------
 
 .. _Create Project:
 
-.. include::./Registeration/project_submit.rst
+.. literalinclude:: ./Registeration/project_submit.rst
 
 .. note::
     If you have your metadta stored at DIS (Data Integration Systtem) and you have patient ID given
     by DIS. Then you can skip these steps and read :ref:`DIS users dataset submit`.
 
 
-Defining Protocols at MSD
--------------------------
+Defining Protocols
+------------------
 
 .. _Create Protocols:
 
-.. include::./Registeration/protocol_submit.rst
+.. literalinclude:: ./Registeration/protocol_submit.rst
 
 
-Defining Organisms at MSD
--------------------------
+Defining Organisms
+------------------
 
 .. _Create Organisms:
 
-.. include::./Registeration/organism_submit.rst
+.. literalinclude:: ./Registeration/organism_submit.rst
 
 
-Defining Samples at MSD
------------------------
+Defining Samples
+----------------
 
 .. _Create Samples:
 
-.. include::./Registeration/sample_submit.rst
+.. literalinclude:: ./Registeration/sample_submit.rst
 
 
-Defining Datasets at MSD
-------------------------
+Defining Datasets
+-----------------
 
 .. _Create Datasets:
 
-.. include::./Registeration/dataset_submit.rst
+.. literalinclude:: ./Registeration/dataset_submit.rst
