@@ -7,7 +7,7 @@ Quickstart
 Registeration of datasets to MSD
 ********************************
     In this tutorial we go through the steps you need to take to upload your dataset (i.e: 16S Sequences) to MSD.
-    The steps are in order and need to be followed in order.
+    You need to follow the steps in order.
 
 =======================
 Creating Account at MSD
