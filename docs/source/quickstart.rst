@@ -10,7 +10,7 @@ Registeration of datasets to MSD
     You need to follow the steps in order.
 
 Creating Account at MSD
-=======================
+-----------------------
 
 .. _Create User:
 
@@ -18,7 +18,7 @@ Creating Account at MSD
 
 
 Defining Your Project at MSD
-============================
+----------------------------
 
 .. _Create Project:
 
@@ -30,7 +30,7 @@ Defining Your Project at MSD
 
 
 Defining Protocols at MSD
-=========================
+-------------------------
 
 .. _Create Protocols:
 
@@ -38,7 +38,7 @@ Defining Protocols at MSD
 
 
 Defining Organisms at MSD
-=========================
+-------------------------
 
 .. _Create Organisms:
 
@@ -46,7 +46,7 @@ Defining Organisms at MSD
 
 
 Defining Samples at MSD
-=======================
+-----------------------
 
 .. _Create Samples:
 
@@ -54,7 +54,7 @@ Defining Samples at MSD
 
 
 Defining Datasets at MSD
-========================
+------------------------
 
 .. _Create Datasets:
 
