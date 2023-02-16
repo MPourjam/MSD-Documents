@@ -21,3 +21,8 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
 If you are new to MSD and want a detailed step-by-step guide to use MSD you can check the :ref:`step-by-step` tutorial.
 If you are new to MSD and want to overview quickly the steps and important notes of each step :ref:`quick start` tutorial.
 
+.. toctree::
+   :maxdepth: 2
+    :glob:
+
+    source/*
