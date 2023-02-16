@@ -1,10 +1,15 @@
 # Configuration file for the Sphinx documentation builder.
 
+import sys
+import os
+sys.path.append(os.path.abspath('..'))
+
+
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'MSD-SOP'
+copyright = '2023, Pourjam'
+author = 'Mohsen Pourjam'
 
 release = '0.1'
 version = '0.1.0'
