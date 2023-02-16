@@ -13,18 +13,22 @@ Having access to MSD will enable the the researchers benfit from stadrardized me
 data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), and project management using only one platform.
 
 
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
    This project is under active development.
 
-Contents
---------
+.. include::general_exp.rst
+
+If you are new to MSD and want a detailed step-by-step guide to use MSD you can check the :ref:`step-by-step` tutorial.
+If you are new to MSD and want to overview quickly the steps and important notes of each step :ref:`quickstart` tutorial.
+
 
 .. toctree::
+   :numbered:
+   :titlesonly:
+   :glob:
+   :hidden:
 
-   usage
-   api
+   general_exp.rst
+   chapter1.rst
+   chapter2.rst
