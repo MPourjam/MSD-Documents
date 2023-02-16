@@ -46,5 +46,5 @@ The table above ..
    objects at MSD.
 
 .. image:: media/pics/crc_base.jpg
-   :scale: 70 %
+   :scale: 100 %
    :alt: MSD Database Structure
