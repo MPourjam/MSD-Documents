@@ -14,7 +14,7 @@ Creating Account
 
 .. _Create User:
 
-.. literalinclude:: ./Registeration/user_submit.rst
+.. include:: ./Registeration/user_submit.rst
 
 
 Defining Your Project
@@ -22,7 +22,7 @@ Defining Your Project
 
 .. _Create Project:
 
-.. literalinclude:: ./Registeration/project_submit.rst
+.. include:: ./Registeration/project_submit.rst
 
 .. note::
     If you have your metadta stored at DIS (Data Integration Systtem) and you have patient ID given
@@ -34,7 +34,7 @@ Defining Protocols
 
 .. _Create Protocols:
 
-.. literalinclude:: ./Registeration/protocol_submit.rst
+.. include:: ./Registeration/protocol_submit.rst
 
 
 Defining Organisms
@@ -42,7 +42,7 @@ Defining Organisms
 
 .. _Create Organisms:
 
-.. literalinclude:: ./Registeration/organism_submit.rst
+.. include:: ./Registeration/organism_submit.rst
 
 
 Defining Samples
@@ -50,7 +50,7 @@ Defining Samples
 
 .. _Create Samples:
 
-.. literalinclude:: ./Registeration/sample_submit.rst
+.. include:: ./Registeration/sample_submit.rst
 
 
 Defining Datasets
@@ -58,4 +58,4 @@ Defining Datasets
 
 .. _Create Datasets:
 
-.. literalinclude:: ./Registeration/dataset_submit.rst
+.. include:: ./Registeration/dataset_submit.rst
