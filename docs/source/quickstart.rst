@@ -14,7 +14,7 @@ Creating Account at MSD
 
 .. _Create User:
 
-.. include::Registeration/user_submit.rst
+.. include::./Registeration/user_submit.rst
 
 
 Defining Your Project at MSD
@@ -22,7 +22,7 @@ Defining Your Project at MSD
 
 .. _Create Project:
 
-.. include::Registeration/project_submit.rst
+.. include::./Registeration/project_submit.rst
 
 .. note::
     If you have your metadta stored at DIS (Data Integration Systtem) and you have patient ID given
@@ -34,7 +34,7 @@ Defining Protocols at MSD
 
 .. _Create Protocols:
 
-.. include::Registeration/protocol_submit.rst
+.. include::./Registeration/protocol_submit.rst
 
 
 Defining Organisms at MSD
@@ -42,7 +42,7 @@ Defining Organisms at MSD
 
 .. _Create Organisms:
 
-.. include::Registeration/organism_submit.rst
+.. include::./Registeration/organism_submit.rst
 
 
 Defining Samples at MSD
@@ -50,7 +50,7 @@ Defining Samples at MSD
 
 .. _Create Samples:
 
-.. include::Registeration/sample_submit.rst
+.. include::./Registeration/sample_submit.rst
 
 
 Defining Datasets at MSD
@@ -58,4 +58,4 @@ Defining Datasets at MSD
 
 .. _Create Datasets:
 
-.. include::Registeration/dataset_submit.rst
+.. include::./Registeration/dataset_submit.rst
