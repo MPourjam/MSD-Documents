@@ -1,26 +1,16 @@
+**********
 Quickstart
-==========
+**********
 
 .. _quick start:
 
-********************************
+################################
 Registeration of datasets to MSD
-********************************
+################################
     In this tutorial we go through the steps you need to take to upload your dataset (i.e: 16S Sequences) to MSD.
     You need to follow the steps in order.
 
-Creating Account
-----------------
-
-.. _Create User:
-
 .. include:: ./Registeration/user_submit.rst
-
-
-Defining Your Project
----------------------
-
-.. _Create Project:
 
 .. include:: ./Registeration/project_submit.rst
 
@@ -29,33 +19,13 @@ Defining Your Project
     by DIS. Then you can skip these steps and read :ref:`DIS users dataset submit`.
 
 
-Defining Protocols
-------------------
-
-.. _Create Protocols:
-
 .. include:: ./Registeration/protocol_submit.rst
 
-
-Defining Organisms
-------------------
-
-.. _Create Organisms:
 
 .. include:: ./Registeration/organism_submit.rst
 
 
-Defining Samples
-----------------
-
-.. _Create Samples:
-
 .. include:: ./Registeration/sample_submit.rst
 
-
-Defining Datasets
------------------
-
-.. _Create Datasets:
 
 .. include:: ./Registeration/dataset_submit.rst

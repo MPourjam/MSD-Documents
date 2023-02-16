@@ -1,5 +1,7 @@
-User Submit
-===========
+Creating Account
+================
+
+.. _Create Account:
 
 As MSD is a platform dedicated to needs of CRC1371 consortium. You need to be a memeber of CRC1371 consortium in order to 
 use it. 
@@ -7,7 +9,7 @@ use it.
 In order to create you account at MSD follow the steps below:
 
 
-1. Go to `MSD <https://www.misigdb.org/>`
+1. Go to `MSD <https://www.misigdb.org/>`_
 2. Click on **Register**.
 
 .. image:: ../media/pics/screenshots/User_Register.png
