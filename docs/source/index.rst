@@ -30,5 +30,3 @@ If you are new to MSD and want to overview quickly the steps and important notes
    :hidden:
 
    general_exp.rst
-   chapter1.rst
-   chapter2.rst
