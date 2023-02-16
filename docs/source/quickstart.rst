@@ -1,5 +1,9 @@
 Quickstart
 ==========
+
+.. autosummary::
+   :toctree: generated
+
 .. _quickstart:
 
 .. contents::
