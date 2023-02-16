@@ -1,9 +1,5 @@
-MSD
-===
-
-.. autosummary::
-   :toctree: generated
-
+What is MSD?
+============
 
 .. _Database Structure:
 
@@ -50,5 +46,5 @@ The table above ..
    objects at MSD.
 
 .. image:: media/pics/crc_base.jpg
-   :width: 400
+   :scale: 100 %
    :alt: MSD Database Structure
