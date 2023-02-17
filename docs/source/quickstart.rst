@@ -16,7 +16,7 @@ Registeration of datasets to MSD
 
 .. note::
     If you have your metadta stored at DIS (Data Integration Systtem) and you have patient ID given
-    by DIS. Then you can skip these steps and read :ref:`DIS users dataset submit`.
+    by DIS. Then you can skip these steps and follow your step through :ref:`DIS users dataset submit`.
 
 
 .. include:: ./Registeration/protocol_submit.rst
