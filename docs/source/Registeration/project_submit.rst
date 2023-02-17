@@ -23,7 +23,7 @@ in your searches for datasets within various projects you have.
 
 .. image:: /media/Project_Register_Form.png
     :align: center
-    :scale: 80 %
+    .. :scale: 80 %
     :alt: Project Register Form
     :class: user_registeration_scsh
 
