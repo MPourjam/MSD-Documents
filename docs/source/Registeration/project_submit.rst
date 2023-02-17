@@ -20,7 +20,7 @@ Under **Submit** tab:
 
 .. image:: /media/Project_Register_Form.png
     :align: center
-    .. :scale: 80 %
+    :scale: 100 %
     :alt: Project Register Form
     :class: user_registeration_scsh
 
