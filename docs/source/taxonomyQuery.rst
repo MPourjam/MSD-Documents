@@ -1,3 +1,0 @@
-Taxonomy Query
-==============
-
