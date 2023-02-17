@@ -1,6 +1,6 @@
 Defining Samples
 ================
 
-.. _Create Samples:
+.. _Register Samples:
 
 some text

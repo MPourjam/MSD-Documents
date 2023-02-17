@@ -1,7 +1,7 @@
 Defining Project
 ================
 
-.. _Create Project:
+.. _Register Project:
 
 MSD database schema tries to comply with every usual research project which starts with defining a project.
 Similarly, the first step at MSD is alos creation of a project to which all your samples would be assigned.

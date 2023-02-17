@@ -1,6 +1,6 @@
 Defining Origins
 ----------------
 
-.. _Create Datasets:
+.. _Register Origin:
 
 some text

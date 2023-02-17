@@ -1,6 +1,6 @@
 Defining Organisms
 ==================
 
-.. _Create Organisms:
+.. _Register Organism:
 
 some text
