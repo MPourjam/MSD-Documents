@@ -12,7 +12,7 @@ In order to create you account at MSD follow the steps below:
 1. Go to `MSD <https://www.misigdb.org/>`_
 2. Click on **Register**.
 
-.. image:: ../../../media/pics/screenshots/User_Register.png
+.. image:: ../../../media/User_Register.png
     :align: center
     :scale: 50 %
     :alt: User Register
@@ -20,7 +20,7 @@ In order to create you account at MSD follow the steps below:
 
 3. Fill the *Sign up form* and click **Create an account**
 
-.. figure:: ../../../media/pics/screenshots/User_Register_Form.png
+.. figure:: ../../../media/User_Register_Form.png
     :align: center
     :scale: 50 %
     :alt: User Register Form
@@ -32,7 +32,7 @@ In order to create you account at MSD follow the steps below:
 
 4. Activate your account by clicking on the link sent to your email address.
 
-.. image:: ../../../media/pics/screenshots/User_Register_activation_email.png
+.. image:: ../../../media/User_Register_activation_email.png
     :align: center
     :scale: 50 %
     :alt: Activation Email
@@ -41,7 +41,7 @@ In order to create you account at MSD follow the steps below:
 5. You need to wait until MSD administrator approve your account. As your acccount is approved, you can 
 start using MSD. You will be notified by an email after account approval.
 
-.. image:: ../../../media/pics/screenshots/User_Register_activation_email.png
+.. image:: ../../../media/User_Register_activation_email.png
     :align: center
     :scale: 50 %
     :alt: Account Approval Email
