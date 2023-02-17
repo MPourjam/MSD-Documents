@@ -26,6 +26,3 @@ Under **Submit** tab:
 
 After you are the project is created you will be redirected to :ref:`Datasets View`.
 
-
-.. [1] Sequence Read Archive
-.. [#] This is the second one.
