@@ -33,9 +33,11 @@ Registeration of datasets to MSD
 .. include:: ./Registeration/sample_submit.rst
 
 
-.. include:: ./Registeration/dataset_submit.rst
+.. include:: ./Registeration/dataset_16S_submit.rst
 
 
 
+.. rubric:: Footnotes
 
 .. [1] Sequence Read Archive
+.. [2] Core Facility Microbiome

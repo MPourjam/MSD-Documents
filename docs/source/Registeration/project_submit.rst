@@ -24,5 +24,5 @@ Under **Submit** tab:
     :alt: Project Register Form
     :class: user_registeration_scsh
 
-After you are the project is created you will be redirected to :ref:`Datasets View`.
+After new project is created you will be redirected to :ref:`Datasets View`.
 
