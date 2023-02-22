@@ -12,10 +12,15 @@ Registeration of datasets to MSD
 
 .. include:: ./Registeration/user_submit.rst
 
+.. note::
+    At MSD all kinds of registeration happen under **Submit** tab. Under this tab you can register *Protocols*,
+    *Projects*, *Organisms*, *Samples*, *Datasets* (*16S*, *18S*, *ITS*, *Metabolomics*, *Transcriptomics*,
+    *Proteomics*, *Metagenomics*).
+
 .. include:: ./Registeration/project_submit.rst
 
 .. note::
-    If you have your metadta stored at DIS (Data Integration Systtem) and you have patient ID given
+    If you have your metadata stored at DIS (Data Integration Systtem) and you have patient ID given
     by DIS. Then you can skip these steps and follow your step through :ref:`DIS users dataset submit`.
 
 
@@ -28,4 +33,11 @@ Registeration of datasets to MSD
 .. include:: ./Registeration/sample_submit.rst
 
 
-.. include:: ./Registeration/dataset_submit.rst
+.. include:: ./Registeration/dataset_16S_submit.rst
+
+
+
+.. rubric:: Footnotes
+
+.. [1] Sequence Read Archive
+.. [2] Core Facility Microbiome
