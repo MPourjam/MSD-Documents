@@ -24,5 +24,5 @@ Under **Submit** tab:
     :alt: Project Register Form
     :class: user_registeration_scsh
 
-    An example of project creation form. After new project is created you will be redirected to :ref:`Datasets View`.
+    An example of project creation form. After new project is created you will be redirected to :ref:`Datasets 16S View`.
 

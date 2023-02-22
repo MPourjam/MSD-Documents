@@ -18,4 +18,26 @@ The definition of different protol helps you with prtocol defninition.
 * **Sequencing Protocol**: This protocol refers to steps taken after sampling util a library is prepared for sequencing. If you have had your samples sequenced by **CFM** [2]_ then you don't need to define any *Sequencing* protocols and you can use the one provided by MSD: *Sequencing_protocol_Default*
 * **Analyais Protocol**: This protocol refers to steps taken for processing the sample you have uploaded to MSD. As all your 16S amplicon sequences get analyzed at MSD, you don't need to define any *Analyais* protocols and you can use the one provided by MSD: *Analysis_protocol_Default*
 
-TO BE CONTINUED
+.. figure:: /media/Protocol_Register_Form.png
+    :align: center
+    :scale: 100 %
+    :alt: Protocol Register Form
+    :class: usr_registeration_scsh
+
+    An example of protocl creation form.
+
+
+  
+
+If your protocol is an extension to other protocol, you can make it related to other protocol by 
+clicking on **Extension** and choosing one of **already submitted** protocols at MSD.
+
+.. figure:: /media/Protocol_Register_Form_Extension.png
+    :align: center
+    :scale: 100 %
+    :alt: Protocol Extension Register Form
+    :class: usr_registeration_scsh
+
+    An example of extending a protocol.
+
+ 

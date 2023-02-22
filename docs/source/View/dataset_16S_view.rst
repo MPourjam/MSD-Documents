@@ -1,6 +1,6 @@
 Datasets View
 =============
 
-.. _Register 16S Dataset:
+.. _Datasets 16S View:
 
 some text
