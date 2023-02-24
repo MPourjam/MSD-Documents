@@ -61,13 +61,13 @@ You can find description of each column as below:
 * **External_ID**: If the organism you're submitting has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
 * **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel.
 You can find information about your registerd organisms at :ref:`Organisms View`.
-* **Name**\\*: The name you want to give to your organism.
-* **Description**\\*: Add some extra information to your organism. It will help you later to filter your organisms.
-* **Project_ID**\\*: The MSD ID of the project this organism belongs to. You can find information about your projects
+* **Name**\*: The name you want to give to your organism.
+* **Description**\*: Add some extra information to your organism. It will help you later to filter your organisms.
+* **Project_ID**\*: The MSD ID of the project this organism belongs to. You can find information about your projects
  at :ref:`Projects View`.
-* **Species**\\*: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
+* **Species**\*: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
  *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organims are not supported.
-* **Sex**\\*: The gender of your organism : **Male** or **Female**
+* **Sex**\*: The gender of your organism : **Male** or **Female**
 
 .. figure:: /media/Organism_Fill_Template_General_Metadata.png
     :align: center
@@ -83,8 +83,8 @@ You can find information about your registerd organisms at :ref:`Organisms View`
 According to type of organism you are submitting you need to related metadata. If you are defining **human** organisms
  then fill following metadata:
 
-* **Place of Birth**\\*: Choose related regions from the drop down menu.
-* **Medical History**: If there is a specific information about the medical history of your organism then add it here. No more than **100** characters.
+* **Place of Birth**\*: Choose related regions from the drop down menu.
+* **Medical History**: If there is specific information about the medical history of your organism then add it here. No more than **100** characters.
 * **IBD**: If your organism has been diagnosed with *IBD*. *Yes* or *No*
 * **Cancer**: If your organism has been diagnosed with *cancer*. *Yes* or *No*
 
@@ -112,5 +112,63 @@ If you are submitting **mouse** organisms then fill the following only.
     :alt: Organism Submit - Mouse Metadata
     :class: org_registration_scsh
 
+    An example of filled row for these metadta.
 
+
+The figure below shows an example of defining 3 mice and 2 human organisms to my project defined in :ref:`Register Project`.
+After finding the **Project_ID** of the project of mine I want to define the organisms inside from :ref:`Protocol View`, I will 
+fill the 5 rows for 5 organisms but as they belong to different species I fill the rows differntly as below.
+
+.. note::
+    Pay attention that for the sake of better representaion irrelative columns are not shown.
+
+
+.. figure:: /media/Organism_Fill_Template_Example_Mice.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Submit - Mouse Metadata - Example
+    :class: org_registration_scsh
+
+    Columns A to G contain metadata and have values for any type of organism you are uploading.
+    The first three rows belong to *mice* organisms and they have values for *mice-specific metadata* so 
+    that they are only filled for *mice* organisms and **left blank** for *human* organisms.
+    Columns H to K are not shown in this figure.
+
+.. figure:: /media/Organism_Fill_Template_Example_Human.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Submit - Human Metadata - Example
+    :class: org_registration_scsh
+
+    Columns A to G contain metadata and have values for any type of organism you are uploading.
+    The last two rows belong to *human* organisms and they have values for *human-specific metadata* so 
+    that they are only filled for *human* organisms and **left blank** for *mice* organisms.
+    Columns L and M are not shown in this figure.
+
+
+Uploading Template
+^^^^^^^^^^^^^^^^^^
+As we have our ogrganism template filled with related values, it's time to upload the template to **MSD**.
+In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. By clicking on **Browse** we 
+ choose filled **organism_template.xlsx** and then click on **Upload Organisms**.
+
+
+.. figure:: /media/Organism_Upload_Template.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Submit - Upload Template
+    :class: org_registration_scsh
+
+
+After clicking on *Upload Organisms* you'll be shown a message and redirected to :ref:`Dataset Register`.
+By clicking on **Organisms** tab you can see your newly uploaded *oranisms*.
+
+
+.. figure:: /media/Organism_View_Table.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Table
+    :class: org_view_scsh
+
+    For explanation of the table see :ref:`Organisms View`.
 

@@ -17,3 +17,10 @@ In organism view you can see information about:
 and you can take this actions:
 * **Edit**:
 * **Delete**:
+
+
+.. figure:: /media/Organism_View_Table.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Table
+    :class: org_view_scsh

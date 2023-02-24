@@ -4,6 +4,7 @@ Quickstart
 
 .. _quick start:
 
+
 ################################
 Registeration of datasets to MSD
 ################################
@@ -24,16 +25,25 @@ Registeration of datasets to MSD
     by DIS. Then you can skip these steps and follow your step through :ref:`DIS users dataset submit`.
 
 
+
+
 .. include:: ./Registeration/protocol_submit.rst
+
+
 
 
 .. include:: ./Registeration/organism_submit.rst
 
 
+
+
 .. include:: ./Registeration/sample_submit.rst
 
 
+
+
 .. include:: ./Registeration/dataset_16S_submit.rst
+
 
 
 
