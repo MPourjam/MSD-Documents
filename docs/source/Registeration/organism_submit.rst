@@ -15,13 +15,10 @@ So far we have submitted prerequisites to registeration of **Organisms**, **Samp
 
 
 
-Create Template
----------------
+In order to create a template you need to click on **Organisms** tab and then *Create Template* tab.
 
-In order to create a template you need to click on *Organisms* tab and then *Create Template* tab.
-
-Create Template
-^^^^^^^^^^^^^^^
+I. Create Template
+^^^^^^^^^^^^^^^^^^
 You will see the various metadata tabs including **General Required Metadata**, **Human Required Metadata**,  
 and **Mouse Required Metadata**.
 
@@ -43,8 +40,8 @@ and **Mouse Required Metadata**.
     By clicking on **Create Organism Template** you download an *excel template*.
 
 
-Fill in the Template
-^^^^^^^^^^^^^^^^^^^^
+II. Fill in the Template
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 In order to introduce your organisms to `MSD <https://www.misigdb.org/>`_, you need to fill the rows of downloaded excel with selected metadta as columns.
 
@@ -146,8 +143,8 @@ fill the 5 rows for 5 organisms but as they belong to different species I fill t
     Columns L and M are not shown in this figure.
 
 
-Uploading Template
-^^^^^^^^^^^^^^^^^^
+III. Uploading Template
+^^^^^^^^^^^^^^^^^^^^^^^
 As we have our ogrganism template filled with related values, it's time to upload the template to **MSD**.
 In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. By clicking on **Browse** we 
  choose filled **organism_template.xlsx** and then click on **Upload Organisms**.
