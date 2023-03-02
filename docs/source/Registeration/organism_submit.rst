@@ -4,6 +4,7 @@ Defining Organisms
 .. _Register Organism:
 
 
+
 So far we have submitted prerequisites to registration of **Organisms**, **Samples** and **Datasets**.
  Registration of Organism and then Samples **comes always before datasets**. It is *recommended* that by start of
  your project define your organisms at MSD and by each sampling attempt define your samples at MSD. Having done 

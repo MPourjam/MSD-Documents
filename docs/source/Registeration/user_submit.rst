@@ -4,6 +4,7 @@ Creating Account
 .. _Register User:
 
 
+
 As MSD is a platform dedicated to needs of CRC1371 consortium. You need to be a memeber of CRC1371 consortium in order to 
 use it. 
 

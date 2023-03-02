@@ -4,6 +4,7 @@ Defining Samples
 .. _Register Samples:
 
 
+
 So far we have some organisms like below registered at **MSD**. It's time now to define samples which we have taken
 from these organisms. The process of sample registration follows the genaral registration approach in MSD.
 
