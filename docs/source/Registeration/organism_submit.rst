@@ -4,18 +4,18 @@ Defining Organisms
 .. _Register Organism:
 
 So far we have submitted prerequisites to registeration of **Organisms**, **Samples** and **Datasets**.
- Registeration of Organism and then Samples comes always before datasets. It is *recommended* that by start of
+ Registeration of Organism and then Samples **comes always before datasets**. It is *recommended* that by start of
  your project define your organisms at MSD and by each sampling attempt define your samples at MSD. Having done 
  that will help not only by tracking and documenting your porject but also by registeration of datasets.
 
 
- In order to register your organisms you need to do **two** major step. Firstly you need to **Create Template** 
+ In order to register your organisms you need to do **three** major step. Firstly you need to **Create Template** 
  and then **Register Template**. For registration of *Samples* and *Datasets* these two major steps are folowed 
  as well.
 
+.. note::
+    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab in top bar -> **Organisms** subtab.
 
-
-In order to create a template you need to click on **Organisms** tab and then *Create Template* tab.
 
 I. Create Template
 ^^^^^^^^^^^^^^^^^^
