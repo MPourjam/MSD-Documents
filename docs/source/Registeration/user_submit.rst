@@ -16,7 +16,7 @@ In order to create you account at MSD follow the steps below:
     :align: center
     :scale: 100 %
     :alt: User Register
-    :class: user_registeration_scsh
+    :class: user_registration_scsh
 
 
 
@@ -26,7 +26,7 @@ In order to create you account at MSD follow the steps below:
     :align: center
     :scale: 100 %
     :alt: User Register Form
-    :class: user_registeration_scsh
+    :class: user_registration_scsh
 
     - **Activation Reason**: This is the reason upon which administrator decides whether to activate
      to activate your account or not. It's suggested to include your subproject within CRC1371.
@@ -39,7 +39,7 @@ In order to create you account at MSD follow the steps below:
     :align: center
     :scale: 100 %
     :alt: Activation Email
-    :class: user_registeration_scsh
+    :class: user_registration_scsh
 
 
 
@@ -50,6 +50,6 @@ start using MSD. You will be notified by an email after account approval.
     :align: center
     :scale: 100 %
     :alt: Account Approval Email
-    :class: user_registeration_scsh
+    :class: user_registration_scsh
 
 Now you have your account activated and you can log in.

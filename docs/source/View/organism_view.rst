@@ -1,34 +1,26 @@
-Usage
-=====
+Organisms View
+==============
 
-.. _installation:
+.. _Organisms View:
 
-Installation
-------------
 
-To use Lumache, first install it using pip:
+In organism view you can see information about:
 
-.. code-block:: console
+* **MSD_ID**: The ID that MSD will give to your organims. The format is like: \\'**P**[Project Number]**O**[Organism Number]\\'
+* **Name**: The name to your organism.
+* **Species**: The scientific name of **type** of organism
+* **Project**: The project this organism belongs to
+* **Sex**: The gender of your organism
+* **Genotype**:
+* **Genetic Modification**:
 
-   (.venv) $ pip install lumache
+and you can take this actions:
+* **Edit**:
+* **Delete**:
 
-Creating recipes
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+.. figure:: /media/Organism_View_Table.png
+    :align: center
+    :scale: 100 %
+    :alt: Organism Table
+    :class: org_view_scsh

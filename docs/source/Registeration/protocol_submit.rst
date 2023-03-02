@@ -22,7 +22,7 @@ The definition of different protol helps you with prtocol defninition.
     :align: center
     :scale: 100 %
     :alt: Protocol Register Form
-    :class: usr_registeration_scsh
+    :class: prot_registration_scsh
 
     An example of protocl creation form.
 
@@ -36,7 +36,7 @@ clicking on **Extension** and choosing one of **already submitted** protocols at
     :align: center
     :scale: 100 %
     :alt: Protocol Extension Register Form
-    :class: usr_registeration_scsh
+    :class: prot_registration_scsh
 
     An example of extending a protocol.
 
