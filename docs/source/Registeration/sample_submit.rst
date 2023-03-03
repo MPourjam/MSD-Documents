@@ -147,15 +147,16 @@ The format is like: Latitude, Longitude. For example: 48.39814451278265, 11.7376
 
 **Custom Sample Metadata**
 
-After all your selected metadata you can place any number of columns with your desired name as *custom metadata* and provide related value to them
- for each of your samples. These custom metadata are stored and your can see and export them for downstream analysis.
+
+After all your selected metadata you can place any number of columns with your desired name as *custom metadata* and provide related value to them 
+for each of your samples. These custom metadata are stored and your can see and export them for downstream analysis.
 
 * **Custom_1**: You can rename these default columns to hold metadata name you desire.
 * **Custom_1**: You can rename these default columns to hold metadata name you desire.
 
 You can also add any number of columns after all MSD standard metadata and provide values for them.
 
-You see and example of filled sample template excel belwo:
+You see and example of filled sample template excel below:
 
 
 .. figure:: /media/Sample_register_example_-ORID.png

@@ -1,7 +1,9 @@
+.. _Organisms View:
+
+
+
 Organisms View
 ==============
-
-.. _Organisms View:
 
 
 In organism view you can see information about:
