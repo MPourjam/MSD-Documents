@@ -164,7 +164,7 @@ You see and example of filled sample template excel belwo:
     :alt: Filled Template - Until ORID
     :class: sample_registration_scsh
 
-    Eight new samples with no External_ID are going to get uploaded. Values until ORID columns
+    Eight new samples with no External_ID are going to get uploaded. Values until ORID columns. the first four rows are mouse samples and the rest human samples.
 
 
 .. figure:: /media/Sample_register_example_OrgID-Preservation.png
@@ -173,7 +173,8 @@ You see and example of filled sample template excel belwo:
     :alt: Filled Template - From Organism ID to Preservation Type
     :class: sample_registration_scsh
 
-    The same samples as prevoius figure. Filled from *Organims_ID* to *Preservation*.
+    The same samples as prevoius figure. Filled from *Organims_ID* to *Preservation*. the first four rows are mouse samples and the rest human samples.
+
 
 .. figure:: /media/Sample_register_example_SampProt-GPS.png
     :align: center
@@ -181,12 +182,76 @@ You see and example of filled sample template excel belwo:
     :alt: Filled Template - from Sampling_Protocol_ID to *Collection_Location_(GPS)*
     :class: sample_registration_scsh
 
-    The same samples as prevoius figure. Filled from *Sampling_Protocol_ID* to *Collection_Location_(GPS)*.
+    The same samples as prevoius figure. Filled from *Sampling_Protocol_ID* to *Collection_Location_(GPS)*. the first four rows are mouse samples and the rest human samples.
+
+
+.. figure:: /media/Sample_register_example_Cancer-alcohol.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from cancer_related_symptoms to alcohol_dependance
+    :class: sample_registration_scsh
+
+    The same samples as prevoius figure. Filled from *cancer_related_symptoms* to *alcohol_dependance*. the first four rows are mouse samples and the rest human samples.
+    Since the first four samples are mouse samples we leave their cells empty for human metadata.
+
+
+.. figure:: /media/Sample_register_example_PhysicalActivity-probiotics.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from physical_activity to *probiotics*
+    :class: sample_registration_scsh
+
+    The same samples as prevoius figure. Filled from *physical_activity* to *probiotics*. the first four rows are mouse samples and the rest human samples.
+    Since the first four samples are mouse samples we leave their cells empty for human metadata.
+
+
+.. figure:: /media/Sample_register_example_Supplement-Coffee.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from supplements to coffee
+    :class: sample_registration_scsh
+
+    The same samples as prevoius figure. Filled from *supplements* to *coffee*. the first four rows are mouse samples and the rest human samples.
+    Since the first four samples are mouse samples we leave their cells empty for human metadata.
+
+
+.. figure:: /media/Sample_register_example_feedprovider-caging.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from feed_provider to caging
+    :class: sample_registration_scsh
+
+    The same samples as prevoius figure. Filled from *feed_provider* to *caging*. the first four rows are mouse samples and the rest human samples.
+    Since the last four samples are human samples we leave their cells empty for mouse metadata.
+
+
+.. figure:: /media/Sample_register_example_basal_microbioata-cust2.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from basal_microbiota to Custom_2
+    :class: sample_registration_scsh
+
+    The same samples as prevoius figure. Filled from *basal_microbiota* to *Custom_2*. the first four rows are mouse samples and the rest human samples.
+    Since the last four samples are human samples we leave their cells empty for mouse metadata.
 
 
 
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-some value here.
+Now that we have filled the excel template it's time to upload it and register our samples to MSD. In order to upload your filled excel you need to go to 
+**Submit** tab -> **Samples** sub-tab -> **Register Template**. There you can *Browse* your computer for your filled excel template and by clicking 
+**Upload Samples** button you introduce your samples to MSD.
+
+
+
+.. figure:: /media/Sample_upload_template.png
+    :align: center
+    :scale: 100 %
+    :alt: Sample Template Upload
+    :class: sample_registration_scsh
+
+
+When you are done with sample uploading you will be shown a message like "Your samples have been successfully uploaded!" and you will be redirected to :ref:`Datasets 16S View`
+
 
