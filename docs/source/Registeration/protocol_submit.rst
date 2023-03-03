@@ -1,8 +1,8 @@
-Defining Protocols
-==================
-
 .. _Register Protocol:
 
+
+Defining Protocols
+==================
 
 
 Different projects might have different protocols for **Sampling**, **Sequencing**, **Analysis**, **Preparation**, and etc.
