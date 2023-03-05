@@ -1,7 +1,9 @@
+.. _Register Samples:
+
+
 Defining Samples
 ================
 
-.. _Register Samples:
 
 
 

@@ -1,8 +1,8 @@
-Defining Origins
-----------------
-
 .. _Register Origin:
 
+
+Defining Origins
+----------------
 
 
 some text

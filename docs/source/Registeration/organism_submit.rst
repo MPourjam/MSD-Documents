@@ -16,7 +16,7 @@ and then **Register Template**. For registration of *Samples* and *Datasets* the
 as well.
 
 .. note::
-    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab in top bar -> **Organisms** subtab.
+    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab -> **Organisms** subtab.
 
 
 I. Create Template
@@ -59,9 +59,7 @@ You can find description of each column as below:
 *General Required Metadata*
 
 * **External_ID**: If the organism you're submitting has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
-* **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel.
-You can find information about your registerd organisms at :ref:`Organisms View`.
-
+* **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel. You can find information about your registerd organisms at :ref:`Organisms View`.
 * **Name**: The name you want to give to your organism.
 * **Description**: Add some extra information to your organism. It will help you later to filter your organisms.
 * **Project_ID**: The MSD ID of the project this organism belongs to. You can find information about your projects
@@ -149,6 +147,8 @@ fill the 5 rows for 5 organisms but as they belong to different species I fill t
 
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+
 As we have our ogrganism template filled with related values, it's time to upload the template to **MSD**.
 In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. By clicking on **Browse** we 
  choose filled **organism_template.xlsx** and then click on **Upload Organisms**.

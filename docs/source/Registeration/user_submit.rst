@@ -1,7 +1,10 @@
+.. _Register User:
+
+
+
 Creating Account
 ================
 
-.. _Register User:
 
 
 

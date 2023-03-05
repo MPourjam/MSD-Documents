@@ -1,7 +1,6 @@
 .. _Organisms View:
 
 
-
 Organisms View
 ==============
 
@@ -17,6 +16,7 @@ In organism view you can see information about:
 * **Genetic Modification**:
 
 and you can take this actions:
+
 * **Edit**:
 * **Delete**:
 
