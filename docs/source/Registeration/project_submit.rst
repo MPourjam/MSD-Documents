@@ -1,10 +1,8 @@
 .. _Register Project:
 
 
-
 Defining Project
 ================
-
 
 
 

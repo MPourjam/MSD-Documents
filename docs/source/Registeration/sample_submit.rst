@@ -12,7 +12,7 @@ from these organisms. The process of sample registration follows the genaral reg
 
 
 In order to register your organisms you need to do **three** major step. Firstly you need to **Create Template**, 
- **Fill the Template** ,and then **Register Template**. The same as registration of organisms which we did in previous section.
+**Fill the Template** ,and then **Register Template**. The same as registration of organisms which we did in previous section.
 
 
 
@@ -95,13 +95,13 @@ You can find the difinition of each metadata below:
 
 
 * **External_ID**: The external ID to your sample *if* it is registered in other platforms such as *SRA* [1]_. If  it's not registered to any platform then leave it blak.
-* **MSD_ID**: If you want to modify metadata of your samples already registered, you can put their *MSD ID* here and fill the column values. Doing so will tell MSD to update 
-the metdata of your sample with provided *MSD ID* with new ones you are providing in this excel template.
+* **MSD_ID**: If you want to modify metadata of your samples already registered, you can put their *MSD ID* here and fill the column values. Doing so will tell MSD to update
+  the metdata of your sample with provided *MSD ID* with new ones you are providing in this excel template.
 * **Name**: The name you want to give your sample. It should be **unique** throughout all samples registered in the project to which origin organism belongs.
 * **Description**: A description of for each sample. It will make it easier to search through your samples using :ref:`Advanced Search` feature.
-* **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part your sample is originated. In order to get this ID you need to 
-use the search box in :ref:`Origin View`. When you found the ORID of you sample you copy that ID to this cell. For example, **1.3.7** is the ID of saliva (material) taken from Salivary Gland (localization)
-in mouth (organ). You can choose this ORID from the drop-down menu.
+* **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part your sample is originated. In order to get this ID you need to
+  use the search box in :ref:`Origin View`. When you found the ORID of you sample you copy that ID to this cell. For example, **1.3.7** is the ID of saliva (material) taken from Salivary Gland (localization)
+  in mouth (organ). You can choose this ORID from the drop-down menu.
 * **Organism_ID**: The MSD ID of organism to which the sample belongs. You can view your organisms of your project at :ref:`Organism View`. You can choose your organism MSD ID from the drop-down menu.
 * **Weight**: Weight of you sample.
 * **Weight_Unit**: The unit of Weight of your sample.
@@ -113,7 +113,7 @@ in mouth (organ). You can choose this ORID from the drop-down menu.
 * **Collection_Time**: Time of sampling. The format HH:MM is preferred.
 * **Collection_Country**: The country where the sampling has taken place. It should be a two-letter standard code of the country according to `ISO_3166 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_.
 * **Collection_Location_(GPS)**: The Sample Collection Location's coordinates. Please watch this tutorial video about how to find the latitude and longitude on google maps: `video <https://www.youtube.com/watch?v=2yOX7soSPeQ&ab_channel=TechIntimidation>`_.
-The format is like: Latitude, Longitude. For example: 48.39814451278265, 11.737600673415221
+  The format is like: Latitude, Longitude. For example: 48.39814451278265, 11.737600673415221
 
 **Human Sample Metadata**
 

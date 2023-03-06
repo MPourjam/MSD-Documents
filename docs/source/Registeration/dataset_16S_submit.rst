@@ -89,6 +89,70 @@ Your zip file should contain your *fastq files* (all you have put their file nam
 *Forward_Filename* and *Backward_Filename*). The zip file should **NOT** contain any folders inside. 
 By opening the zip file you should only see the fastq (or fastq.gz) files. 
 
+An example of filled dataset excel you can find as below:
+
+.. figure:: /media/Dataset_register_DISID-Acc.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from DIS ID to Accession
+    :class: dat16s_registration_scsh
+
+  The first three datasets have MSD Sample ID (i.e: P1O273S155) and the last three does not have MSD Sample ID which means that they are coming 
+  from human organisms whose metadata is already stored at DIS. The last three datasets would be created after their data is retrieved from DIS
+  and related MSD organisms and samples will be created. The first three datasets are going to be assigned to already registered samples.
+
+
+.. figure:: /media/Dataset_register_Seq-Paired.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from Sequencer to Paired Sequencing
+    :class: dat16s_registration_scsh
+
+  All datasets have been sequenced with Illumina MiSeq machine, same preparatoin protocol, same sequencing protocol and all of them are 
+  paired-end.
+
+
+.. figure:: /media/Dataset_register_Forw-DNAIso.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from Forward File name to DNA Isolation
+    :class: dat16s_registration_scsh
+
+  Forward file name and Reverse file name provided. Note that the **full** name of files are given. The sequencing
+  has targeted V3-V4 region.
+
+
+.. figure:: /media/Dataset_register_ForwP-RunLength.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from forward primer to run length
+    :class: dat16s_registration_scsh
+
+  As all datasets have been sequenced with the same protocol and same facility, the forward and reverse primer used are the same.
+  Note that there is no need to choose primers sequences as they would be automatically chosen according to your chosen primers names.
+
+
+.. figure:: /media/Dataset_register_Amp-SpikeAmount.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from amplification step to spike amount
+    :class: dat16s_registration_scsh
+
+  Two amplification steps for library preparaion (PCR) with 15 and 10 cycles for the two steps, respectively. Reads number are not known
+  and the first three datasets were spiked and the rest not, so that the amount of 6 Nanograpm has been put for the first three and amount
+  of **0** Nanogram for non-spiked ones.
+  
+
+.. figure:: /media/Dataset_register_SampleW-Cust2.png
+    :align: center
+    :scale: 100 %
+    :alt: Filled Template - from Sample Weight to Custom 2
+    :class: dat16s_registration_scsh
+
+  Sample type and weight taken for sequencing for all datasets is provided (ask for this information from the sequencing facility).
+  After **Sample_Type** column you can add your own columns with desired names and values for each dataset to have them stored at MSD.
+  In this example I did not provide **additional metadata**, but you can provide yours after **Sample_Type** column.
+  
 
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^

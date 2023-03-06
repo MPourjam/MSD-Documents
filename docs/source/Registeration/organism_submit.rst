@@ -1,8 +1,8 @@
-Defining Organisms
-==================
-
 .. _Register Organism:
 
+
+Defining Organisms
+==================
 
 
 So far we have submitted prerequisites to registration of **Organisms**, **Samples** and **Datasets**.
@@ -59,13 +59,14 @@ You can find description of each column as below:
 *General Required Metadata*
 
 * **External_ID**: If the organism you're submitting has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
-* **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel. You can find information about your registerd organisms at :ref:`Organisms View`.
+* **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel.
+  You can find information about your registerd organisms at :ref:`Organisms View`.
 * **Name**: The name you want to give to your organism.
 * **Description**: Add some extra information to your organism. It will help you later to filter your organisms.
 * **Project_ID**: The MSD ID of the project this organism belongs to. You can find information about your projects
- at :ref:`Projects View`.
+  at :ref:`Projects View`.
 * **Species**: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
- *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organims are not supported.
+  *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organims are not supported.
 * **Sex**: The gender of your organism : **Male** or **Female**
 
 .. figure:: /media/Organism_Fill_Template_General_Metadata.png
