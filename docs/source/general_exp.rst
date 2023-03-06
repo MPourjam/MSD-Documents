@@ -1,11 +1,9 @@
-What is MSD?
-============
-
 .. _Database Structure:
 
-******************
+
 Database Structure
-******************
+==================
+
 
 MSD databse has a hierarchical structure. We have the concepts of **Projects**, **Organisms**, **Samples**, and **Datasets**.
 As a user has defined a project, the new project can host various *organisms*, *samples* and *datasets*. A defined *organism*

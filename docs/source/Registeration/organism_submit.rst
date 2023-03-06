@@ -1,21 +1,23 @@
+.. _Register Organism:
+
+
 Defining Organisms
 ==================
 
-.. _Register Organism:
 
-So far we have submitted prerequisites to registeration of **Organisms**, **Samples** and **Datasets**.
- Registeration of Organism and then Samples comes always before datasets. It is *recommended* that by start of
- your project define your organisms at MSD and by each sampling attempt define your samples at MSD. Having done 
- that will help not only by tracking and documenting your porject but also by registeration of datasets.
-
-
- In order to register your organisms you need to do **two** major step. Firstly you need to **Create Template** 
- and then **Register Template**. For registration of *Samples* and *Datasets* these two major steps are folowed 
- as well.
+So far we have submitted prerequisites to registration of **Organisms**, **Samples** and **Datasets**.
+Registration of Organism and then Samples **comes always before datasets**. It is *recommended* that by start of
+your project define your organisms at MSD and by each sampling attempt define your samples at MSD. Having done 
+that will help not only by tracking and documenting your porject but also by registration of datasets.
 
 
+In order to register your organisms you need to do **three** major step. Firstly you need to **Create Template** 
+and then **Register Template**. For registration of *Samples* and *Datasets* these two major steps are folowed 
+as well.
 
-In order to create a template you need to click on **Organisms** tab and then *Create Template* tab.
+.. note::
+    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab -> **Organisms** subtab.
+
 
 I. Create Template
 ^^^^^^^^^^^^^^^^^^
@@ -48,6 +50,7 @@ In order to introduce your organisms to `MSD <https://www.misigdb.org/>`_, you n
 .. note::
     Please be careful to open the excel file with **English Excel** and **NOT** the **German excel**.
 
+
 You can find description of each column as below:
 
 .. _General Organism Metadata:
@@ -57,14 +60,14 @@ You can find description of each column as below:
 
 * **External_ID**: If the organism you're submitting has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
 * **MSD_ID**: If a value for this cell is provided MSD tries to find that organims with given *MSD_ID* and update its Metadata with current given metadata in the excel.
-You can find information about your registerd organisms at :ref:`Organisms View`.
-* **Name**\*: The name you want to give to your organism.
-* **Description**\*: Add some extra information to your organism. It will help you later to filter your organisms.
-* **Project_ID**\*: The MSD ID of the project this organism belongs to. You can find information about your projects
- at :ref:`Projects View`.
-* **Species**\*: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
- *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organims are not supported.
-* **Sex**\*: The gender of your organism : **Male** or **Female**
+  You can find information about your registerd organisms at :ref:`Organisms View`.
+* **Name**: The name you want to give to your organism.
+* **Description**: Add some extra information to your organism. It will help you later to filter your organisms.
+* **Project_ID**: The MSD ID of the project this organism belongs to. You can find information about your projects
+  at :ref:`Projects View`.
+* **Species**: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
+  *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organims are not supported.
+* **Sex**: The gender of your organism : **Male** or **Female**
 
 .. figure:: /media/Organism_Fill_Template_General_Metadata.png
     :align: center
@@ -80,7 +83,7 @@ You can find information about your registerd organisms at :ref:`Organisms View`
 According to type of organism you are submitting you need to related metadata. If you are defining **human** organisms
  then fill following metadata:
 
-* **Place of Birth**\*: Choose related regions from the drop down menu.
+* **Place of Birth**: Choose related regions from the drop down menu.
 * **Medical History**: If there is specific information about the medical history of your organism then add it here. No more than **100** characters.
 * **IBD**: If your organism has been diagnosed with *IBD*. *Yes* or *No*
 * **Cancer**: If your organism has been diagnosed with *cancer*. *Yes* or *No*
@@ -145,6 +148,8 @@ fill the 5 rows for 5 organisms but as they belong to different species I fill t
 
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+
 As we have our ogrganism template filled with related values, it's time to upload the template to **MSD**.
 In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. By clicking on **Browse** we 
  choose filled **organism_template.xlsx** and then click on **Upload Organisms**.
