@@ -18,7 +18,7 @@ and produce 2 datasets from each sample. Thus, you need to define all your mice 
 for each of them define only **2** *samples* for which **2** *datasets* would get generated and uploaded to MSD. The table below
 shows the case.
 
-.. _Concepts Relaion::
+.. _Concepts Relaion:
 .. csv-table:: Concepts Relation at MSD
    :header: "No.", "Organism", "Sample", "Dataset Type"
    :widths: 5, 10, 10, 20
