@@ -23,5 +23,9 @@ If you are new to MSD and want to overview quickly the steps and important notes
 .. toctree::
    :maxdepth: 2
    :glob:
+   :reserved:
+   :caption: Table of Contents
+   :name: mastertoc
 
-    source/*
+   Registeration/*
+   View/*
