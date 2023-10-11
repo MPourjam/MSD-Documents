@@ -1,9 +1,8 @@
+.. _quick start:
+
 **********
 Quickstart
 **********
-
-.. _quick start:
-
 
 ################################
 Registeration of datasets to MSD
