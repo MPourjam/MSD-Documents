@@ -133,7 +133,24 @@ The template has three main columns explained as below:
         to find the given file name under this column there. Then it parses the metabolites in the metabolites excel files and 
         assign them to proper metabolomics run (i.e\: *RUN_ID*) and metabolomic dataset name (i.e: *Dataset_Name*)
 
-#. Upload your comporessed metabolites excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.\
+#. Upload your comporessed metabolites excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.
+
+As it's shown below in the screenshot you need to upload the zip file containing your metabolite excels and a mapping excel for submission as 
+described above.
 
 
-To be completed
+.. figure:: /media/MetabolomicsUpload.png
+    :align: center
+    :scale: 100 %
+    :alt: Metabolomics Datasets Upload
+    :class: metabolites_submission
+
+    There are two fields you need to give files. **Dataset template**: here you give the filled template 
+    mapping metabolites excel files to *RUN_ID* and *Dataset_Name* :ref:`Metabolomics Dataset Template <Metabolomics Dataset Template>`.
+    **Dataset raw**\: Here you upload the zip file containing all emtaboliltes excel (e.g\: :ref:`Example of metabolites excel <MetabolitesExcelScreenShot1>`)
+
+
+
+#. When the upload is finished you can view your matabolites datasets :ref:`Metaqbolomics View  <View Metabolomics Dataset>`
+
+
