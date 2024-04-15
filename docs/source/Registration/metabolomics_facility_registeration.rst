@@ -1,12 +1,12 @@
 .. _Register Metabolomics Dataset:
 
-===============================
-Metabolomics Dataset Submission
-===============================
+
+Metabolomics Dataset Registration
+=================================
 
 
 I. Defining a Metabolomic Run
-=============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
     This section applies to metabolomics facility operators or members. Here the analysis 
@@ -51,7 +51,7 @@ In order to submit your metabolomics runs to MSD you need to follow the steps as
 .. _Submission of Metabolites:
 
 II. Submission of Metabolites
-=============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As explained :ref:`here <Concepts Relaion>`, you can assign different types of dataset to 
 one specific sample (See :ref:`Sample Submission <Register Samples>`). In order to add 
