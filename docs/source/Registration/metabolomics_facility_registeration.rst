@@ -11,10 +11,42 @@ I. Defining a Metabolomic Run
 
 .. note::
     This section applies to metabolomics facility operators or members. Here the analysis 
-    run preformed at metabolomics facility gets registered and given an ID. If your are 
+    run preformed at metabolomics facility gets registered and given an ID. If you are 
     a scientist using MSD and need to upload metabolomics dataset to your samples then 
     please read `II. Submission of Metabolites`_.
 
+In order to submit your metabolomics runs to MSD you need to follow the steps as below:
+
+#. Make sure that your account has been added to metabolomics group operators. If you are not
+    added to the group please contact MSD administrator to add you to the group.
+
+#. Log in with your user account and navigate to `Submit/Datasets/Metabolomics`as shown below:
+
+.. figure:: /media/MetabolomicsRunSubmission-TabView.png
+    :align: center
+    :scale: 100 %
+    :alt: View of Metabolomics Run Submission Tab
+    :class: metabolites_run_submission
+
+    This figure shows the navigation path to the metabolomics run submission tab.
+
+#. Click on `Metabolomics Run` tab. You will see a table with all the metabolomics runs submitted 
+    to MSD. You can see the status of each run in the table including **RUN_ID**, **Name**, **Wiff**,
+     **Scan**, **Submitter**, **Upload Date**, and **Action**.
+    By clicking on delete icon beside the Wiff file you can delete the uploaded file. Also you can use **download**,
+     **delete**, and **edit** to manage the run entry.
+    
+#. For adding new run fill the form as shown below and click on **Save Metabolomics Run** button.
+
+.. figure:: /media/MetabolomicsRunSubmissionForm.png
+    :align: center
+    :scale: 100 %
+    :alt: Metabolomics Run Submission Form
+    :class: metabolites_run_submission
+
+    This figure shows the form for submitting a new metabolomics run.
+    Adding **Wiff** and **Scan** output will help you manage your run and 
+    store your files at MSD.
 
 
 .. _Submission of Metabolites:
@@ -34,17 +66,17 @@ sample (See :ref:`view samples <View Samples>`).
 #. Sending your samples material for metabolites measurement.
 .. note::
     It's recommended to submit your samples before sending their material to metabolomics 
-    lab and use MSD Sample IDs (e.g: P10O252S134) as identifer of your samples in :ref:`metabolomics 
+    lab and use MSD Sample IDs (e.g: P10O252S134) as identifier of your samples in :ref:`metabolomics 
     runs <Metabolomics Run>`.
 
-#. Receive metabolites excel files of your metabolites measurement requests from metabolomics 
+#. Receive metabolites Excel files of your metabolites' measurement requests from metabolomics 
 runs. Below you can find two example files you should expect from metabolomics facility.
 
     1. :download:`Example 1 </downloads/MetabolitesExample1.xlsx>`
     2. :download:`Example 2 </downloads/MetabolitesExample2.xlsx>`
 
-Metabolites excel files should have columns described as below and **an extra row below column headers** 
-containing units of measurements for each metabolites.
+Metabolites Excel files should have columns described as below and **an extra row below column headers** 
+containing units of measurements for each metabolite.
 
 **Columns:**
     *   *Sample_ID*: This column holds the MSD ID of your samples to be used in order to assign upcoming 
@@ -55,34 +87,34 @@ containing units of measurements for each metabolites.
         **NOTE** the second row of this column is empty.
     *   *Metabolites Columns*: From column **C** you should have metabolites names as first row (i.e: header) 
         and the unit of values in the next row. There should be values of the corresponding metabolites in the 
-        rows related to each of your samples. In case of not having values for a specific metabolites in a 
-        sample value **N/A** should be placed. (See figure of second metabolites example excel)
+        rows related to each of your samples. In case of not having values for a specific metabolite in a 
+        sample value **N/A** should be placed. (See figure of second metabolites example Excel)
 
 .. _MetabolitesExcelScreenShot1:
 .. figure:: /media/MetabolitesExcelScreenShot1.png
     :align: center
     :scale: 100 %
-    :alt: An examle of metabolites excel you will receive from metabolomic facility
+    :alt: An example of metabolites Excel you will receive from metabolomic facility
     :class: metabolites_submission
 
-    This figure shows an example of a typcial metabolites excel you will receive from metabolomics center.
+    This figure shows an example of a typical metabolites Excel you will receive from metabolomics center.
 
 
 .. _MetabolitesExcelScreenShot2:
 .. figure:: /media/MetabolitesExcelScreenShot2.png
     :align: center
     :scale: 100 %
-    :alt: An examle of metabolites excel with added custom metabolites
+    :alt: An example of metabolites Excel with added custom metabolites
     :class: metabolites_submission
 
-    Another example of emtabolites excel with custom added metabolites in the last column.
+    Another example of metabolites Excel with custom added metabolites in the last column.
 
-#. Compress all metabolites excels you want to upload into a zip file. 
+#. Compress all metabolites Excels you want to upload into a zip file. 
 You can download an example here: :download:`Metabolites Zip </downloads/Metabolites.zip>`
 
 .. note::
-    Make sure that you have used your samples MSD ID in the first column of your metabolites excel. 
-    MSD will use those IDs to relate your metaboites to proper samples of your project.
+    Make sure that you have used your samples MSD ID in the first column of your metabolites Excel. 
+    MSD will use those IDs to relate your metabolites to proper samples of your project.
 
 
 #. Download metabolomics data submission template. 
@@ -107,7 +139,7 @@ The template has three main columns explained as below:
     :class: metabolites_submission
 
     **Columns**:
-    *   *Dataset_Name*: This name will be prepended to the name of samples you have given in the metabolites excel 
+    *   *Dataset_Name*: This name will be prepended to the name of samples you have given in the metabolites Excel 
         given as *File_Name*. Imagine you have given the dataset the name *"Measurement-1-Project-1"* (as 
         shown in the figure above) and content of *"MetabolitesExample1.xlsx"* are as shown in 
         `Metabolites Excel 1 <MetabolitesExcelScreenShot1>`_. When you submit your dataset MSD will take name of the 
@@ -123,19 +155,19 @@ The template has three main columns explained as below:
         facility which did your measurements for this ID then choose the correct ID for your dataset. By this ID we 
         relate your dataset to proper raw run files submitted by metabolomics facility.
         .. note::
-            If you are using excel programm with default language other than *English* version, the drop-down might not 
-            work due to translation of formulas. In this case, you can refer to *Sheet 2* of the excel and find valid 
+            If you are using Excel program with default language other than *English* version, the drop-down might not 
+            work due to translation of formulas. In this case, you can refer to *Sheet 2* of the Excel and find valid 
             Run IDs under a column named **Raw Sources ID**.
 
 
-    *   *File_Name*:  This columns stablish a relation between metabolites excel files containing metabolites and sample IDs.
-        to your *Dataset_Name* and *RUN_ID*. MSD will look in the zip file containing your metabolites excel files and tries 
-        to find the given file name under this column there. Then it parses the metabolites in the metabolites excel files and 
+    *   *File_Name*: These columns establish a relation between metabolites Excel files containing metabolites and sample IDs
+        to your *Dataset_Name* and *RUN_ID*. MSD will look in the zip file containing your metabolites Excel files and tries 
+        to find the given file name under this column there. Then it parses the metabolites in the metabolites Excel files and 
         assign them to proper metabolomics run (i.e\: *RUN_ID*) and metabolomic dataset name (i.e: *Dataset_Name*)
 
-#. Upload your comporessed metabolites excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.
+#. Upload your compressed metabolites Excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.
 
-As it's shown below in the screenshot you need to upload the zip file containing your metabolite excels and a mapping excel for submission as 
+As it's shown below in the screenshot you need to upload the zip file containing your metabolite Excels and a mapping Excel for submission as 
 described above.
 
 
@@ -146,11 +178,11 @@ described above.
     :class: metabolites_submission
 
     There are two fields you need to give files. **Dataset template**: here you give the filled template 
-    mapping metabolites excel files to *RUN_ID* and *Dataset_Name* :ref:`Metabolomics Dataset Template <Metabolomics Dataset Template>`.
-    **Dataset raw**\: Here you upload the zip file containing all emtaboliltes excel (e.g\: :ref:`Example of metabolites excel <MetabolitesExcelScreenShot1>`)
+    mapping metabolites Excel files to *RUN_ID* and *Dataset_Name* :ref:`Metabolomics Dataset Template <Metabolomics Dataset Template>`.
+    **Dataset raw**\: Here you upload the zip file containing all emtaboliltes Excel (e.g\: :ref:`Example of metabolites Excel <MetabolitesexcelScreenShot1>`)
 
 
 
-#. When the upload is finished you can view your matabolites datasets :ref:`Metaqbolomics View  <View Metabolomics Dataset>`
+#. When the upload is finished you can view your metabolites datasets :ref:`Metaqbolomics View  <View Metabolomics Dataset>`
 
 

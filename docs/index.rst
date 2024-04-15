@@ -26,5 +26,8 @@ If you are new to MSD and want to overview quickly the steps and important notes
    :caption: Table of Contents
    :name: mastertoc
 
-   Registeration/*
-   View/*
+
+   /Registration/*
+   /View/*
+   /downloads/*
+   /Funcs/*

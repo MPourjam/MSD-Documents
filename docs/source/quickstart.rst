@@ -28,24 +28,20 @@ Registration of datasets to MSD
 .. include:: ./Registration/protocol_submit.rst
 
 
-
-
 .. include:: ./Registration/organism_submit.rst
-
-
 
 
 .. include:: ./Registration/sample_submit.rst
 
 
-
-
 .. include:: ./Registration/dataset_16S_submit.rst
 
 
+.. include:: ./Registration/Metabolomics_facility_submit.rst
 
 
 .. rubric:: Footnotes
+
 
 .. [1] Sequence Read Archive
 .. [2] Core Facility Microbiome
