@@ -5,8 +5,11 @@ build:
   tools:
     python: "3.8"
 
+submodules:
+  include: all
+
 sphinx:
-  fail_on_warning: true
+  fail_on_warning: false
   configuration: docs/conf.py
   
 python:

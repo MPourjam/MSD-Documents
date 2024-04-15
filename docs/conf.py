@@ -2,7 +2,7 @@
 
 import sys
 import os
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # -- Project information
 
@@ -18,10 +18,10 @@ version = '0.1.0'
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
-    # 'sphinx.ext.autodoc',
-    # 'sphinx.ext.autosummary',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    # 'myst_parser',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
