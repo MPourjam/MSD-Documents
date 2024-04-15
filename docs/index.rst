@@ -20,14 +20,7 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
 
 If you are new to MSD and want to overview quickly the steps and important notes of each step :ref:`quick start` tutorial.
 
-.. toctree::
-   :glob:
-   :reserved:
-   :caption: Table of Contents
-   :name: mastertoc
+Table of Contents
+------------------
 
-
-   /Registration/*
-   /View/*
-   /downloads/*
-   /Funcs/*
+.. include:: source/index.rst
