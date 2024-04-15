@@ -1,11 +1,10 @@
 .. _Register Metabolomics Dataset:
 
-==================================
-Submission of Metabolomics Dataset
-==================================
+===============================
+Metabolomics Dataset Submission
+===============================
 
 
-.. _Submission of Metabolomics Runs:
 I. Defining a Metabolomic Run
 =============================
 
