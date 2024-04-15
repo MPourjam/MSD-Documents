@@ -154,9 +154,8 @@ An example of filled dataset excel you can find as below:
     In this example I did not provide **additional metadata**, but you can provide yours after **Sample_Type** column.
   
 
-III. Uploading Template
+IV. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
-
 
 It's time to upload the excel template and your zip file containing all your fastq (or fastq.gz) files.
 
