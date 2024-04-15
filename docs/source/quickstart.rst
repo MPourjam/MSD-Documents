@@ -37,7 +37,7 @@ Registration of datasets to MSD
 .. include:: ./Registration/dataset_16S_submit.rst
 
 
-.. include:: ./Registration/Metabolomics_facility_submit.rst
+.. include:: ./Registration/metabolomics_facility_registeration.rst
 
 
 .. rubric:: Footnotes
