@@ -1,8 +1,8 @@
-.. _View Metabolomics Dataset:
+.. _DatasetsMetabolomicsView:
 
-=========================
+
 View Metabolomics Dataset
-=========================
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 In order to view your submitted metabolomics datasets you need to login and go to 

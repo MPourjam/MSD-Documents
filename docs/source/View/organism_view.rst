@@ -2,7 +2,7 @@
 
 
 Organisms View
-==============
+--------------
 
 
 In organism view you can see information about:

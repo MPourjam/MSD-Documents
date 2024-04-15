@@ -1,8 +1,8 @@
 .. _View Samples:
 
-============
-View Samples
-============
+
+Samples view
+------------
 
 
 In order to view your submitted samples you need to login and go to **Overview** → **Samples**. 

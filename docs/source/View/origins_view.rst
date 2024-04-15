@@ -1,7 +1,8 @@
-Usage
-=====
-
 .. _Origin View:
+
+
+Origin View
+-----------
 
 
 MSD has a origin explorer by which you can find the origin of your samples and the ID MSD gives to them. This ID is called **ORID** and contains information about 

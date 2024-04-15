@@ -36,7 +36,8 @@ shows the case.
    "11", "Mouse_3", "faeces", "16S Amplicon"
    "12", "Mouse_3", "faeces", "Shotgun"
 
-The table above ..
+The table above shows that each mouse has 4 samples and each sample has 2 datasets. In total, there are 12 datasets
+
 
 .. note::
    The definion of a *sample* refers to each attempt of sampling. For example, two samples, both taken from

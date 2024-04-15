@@ -1,12 +1,13 @@
 .. _quick start:
 
-***********
-Quick Start
-***********
 
-################################
+Quick Start
+===========
+
+
 Registration of datasets to MSD
-################################
+-------------------------------
+
     In this tutorial we go through the steps you need to take to upload your dataset (i.e: 16S Sequences) to MSD.
     You need to follow the steps in order.
 

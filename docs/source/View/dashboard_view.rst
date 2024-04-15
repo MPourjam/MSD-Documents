@@ -1,7 +1,8 @@
-Usage
-=====
-
 .. _Dashboard:
 
-some text
+
+Dashboard View
+--------------
+
+Will be added soon!
 
