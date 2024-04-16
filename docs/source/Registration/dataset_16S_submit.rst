@@ -118,7 +118,7 @@ An example of filled dataset excel you can find as below:
     :alt: Filled Template - from Forward File name to DNA Isolation
     :class: dat16s_registration_scsh
 
-    Forward file name and Reverse file name provided. Note that the **full** name of files are given. The sequencing
+    Forward file name and Reverse file name provided. Note that the **full** name of files is given. The sequencing
     has targeted V3-V4 region.
 
 
