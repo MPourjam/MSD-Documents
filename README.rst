@@ -1,4 +1,4 @@
-Documentaion for Microbial Signatures Database (MSD)
+Documentation for Microbial Signatures Database (MSD)
 ====================================================
 
 [![Documentation Status](https://readthedocs.org/projects/sop-for-msd/badge/?version=latest)](https://sop-for-msd.readthedocs.io/en/latest/?badge=latest)
