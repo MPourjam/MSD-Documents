@@ -12,14 +12,14 @@ I. Defining a Metabolomic Run
     This section applies to metabolomics facility operators or members. Here the analysis 
     run preformed at metabolomics facility gets registered and given an ID. If you are 
     a scientist using MSD and need to upload metabolomics dataset to your samples then 
-    please read `II. Submission of Metabolites`_.
+    please read :ref:`Submission of Metabolites`.
 
 In order to submit your metabolomics runs to MSD you need to follow the steps as below:
 
 #. Make sure that your account has been added to metabolomics group operators. If you are not
     added to the group please contact MSD administrator to add you to the group.
 
-#. Log in with your user account and navigate to `Submit/Datasets/Metabolomics`as shown below:
+#. Log in with your user account and navigate to **Submit/Datasets/Metabolomics** as shown below:
 
 .. figure:: /media/MetabolomicsRunSubmission-TabView.png
     :align: center
@@ -29,9 +29,10 @@ In order to submit your metabolomics runs to MSD you need to follow the steps as
 
     This figure shows the navigation path to the metabolomics run submission tab.
 
-#. Click on `Metabolomics Run` tab. You will see a table with all the metabolomics runs submitted 
-    to MSD. You can see the status of each run in the table including **RUN_ID**, **Name**, **Wiff**,
+#. Click on **Metabolomics Run** tab. You will see a table with all the metabolomics runs submitted\
+    to MSD. You can see the status of each run in the table including **RUN_ID**, **Name**, **Wiff**,\
      **Scan**, **Submitter**, **Upload Date**, and **Action**.
+
     By clicking on delete icon beside the Wiff file you can delete the uploaded file. Also, you can use **download**,
      **delete**, and **edit** to manage the run entry.
     
