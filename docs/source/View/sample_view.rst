@@ -9,7 +9,7 @@ In order to view your submitted samples you need to log in and go to **Overview*
 the column named **MSD_ID** contains samples IDs of each registered sample.
 
 
-.. image:: media/SamplesView.png
+.. image:: /media/SamplesView.png
    :scale: 100 %
    :alt: Samples View
 
