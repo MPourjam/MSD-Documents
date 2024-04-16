@@ -16,10 +16,11 @@ I. Defining a Metabolomic Run
 
 In order to submit your metabolomics runs to MSD you need to follow the steps as below:
 
-#. Make sure that your account has been added to metabolomics group operators. If you are not \
+
+1. Make sure that your account has been added to metabolomics group operators. If you are not \
 added to the group please contact MSD administrator to add you to the group.
 
-#. Log in with your user account and navigate to **Submit/Datasets/Metabolomics** as shown below:  
+2. Log in with your user account and navigate to **Submit/Datasets/Metabolomics** as shown below:  
 
 .. figure:: /media/MetabolomicsRunSubmission-TabView.png
     :align: center
@@ -29,14 +30,14 @@ added to the group please contact MSD administrator to add you to the group.
 
     This figure shows the navigation path to the metabolomics run submission tab.
 
-#. Click on **Metabolomics Run** tab. You will see a table with all the metabolomics runs submitted \
+3. Click on **Metabolomics Run** tab. You will see a table with all the metabolomics runs submitted \
     to MSD. You can see the status of each run in the table including **RUN_ID**, **Name**, **Wiff**, \
     **Scan**, **Submitter**, **Upload Date**, and **Action**.
 
     By clicking on delete icon beside the Wiff file you can delete the uploaded file. Also, you can use **download**,
      **delete**, and **edit** to manage the run entry.
 
-#. For adding new run fill the form as shown below and click on **Save Metabolomics Run** button.
+4. For adding new run fill the form as shown below and click on **Save Metabolomics Run** button.
 
 
 .. figure:: /media/MetabolomicsRunSubmissionForm.png
@@ -60,20 +61,19 @@ one specific sample (See :ref:`Sample Submission <Register Samples>`). In order 
 measured metabolites to your samples you need to follow the steps as below:
 
 
-#. Submission of your :ref:`samples <Register Samples>` and assign them to related \
+1. Submission of your :ref:`samples <Register Samples>` and assign them to related \
 :ref:`organisms <Register Organism>` in one of your :ref:`projects <Register Project>`. \
 After having registered your samples you will be given a sample ID for each registered \
 sample (See :ref:`view samples <View Samples>`).
 
-
-#. Sending your samples material for metabolites measurement.
+2. Sending your samples material for metabolites measurement.
 
 
 .. note::
     It's recommended to submit your samples before sending their material to metabolomics \
     lab and use MSD Sample IDs (e.g: P10O252S134) as identifier of your samples in :ref:`metabolomics runs <Metabolomics Run>`.
 
-#. Receive metabolites Excel files of your metabolites' measurement requests from metabolomics \
+3. Receive metabolites Excel files of your metabolites' measurement requests from metabolomics \
 runs. Below you can find two example files you should expect from metabolomics facility.
 
     1. :download:`Example 1 </downloads/MetabolitesExample1.xlsx>`
@@ -117,7 +117,7 @@ containing units of measurements for each metabolite.
 
     Another example of metabolites Excel with custom added metabolites in the last column.
 
-#. Compress all metabolites Excels you want to upload into a zip file.  
+4. Compress all metabolites Excels you want to upload into a zip file.  
 You can download an example here: :download:`Metabolites Zip </downloads/Metabolites.zip>`
 
 .. note::
@@ -125,7 +125,7 @@ You can download an example here: :download:`Metabolites Zip </downloads/Metabol
     MSD will use those IDs to relate your metabolites to proper samples of your project.
 
 
-#. Download metabolomics data submission template.  
+5. Download metabolomics data submission template.  
 You can follow the steps as shown in the picture to download it.
 
 .. figure:: /media/MetabolomicsCreateTemplate.png
@@ -136,7 +136,7 @@ You can follow the steps as shown in the picture to download it.
 
 
 .. _Metabolomics Dataset Template:
-#. Fill out the metabolomics data submission template.  
+6. Fill out the metabolomics data submission template.  
 The template has three main columns explained as below:
 
 
@@ -175,7 +175,7 @@ The template has three main columns explained as below:
         assign them to proper metabolomics run (i.e\: *RUN_ID*) and metabolomic dataset name (i.e: *Dataset_Name*)
 
 
-#. Upload your compressed metabolites Excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.
+7. Upload your compressed metabolites Excel files and your :ref:`metabolomics dataset submission template <Metabolomics Dataset Template>`.
 
 As it's shown below in the screenshot you need to upload the zip file containing your metabolite Excels and a mapping Excel for submission as 
 described above.
@@ -192,6 +192,4 @@ described above.
     **Dataset raw**\: Here you upload the zip file containing all metabolites Excel (e.g\: :ref:`Example of metabolites Excel <MetabolitesexcelScreenShot1>`)
 \
 
-#. When the upload is finished you can view your metabolites datasets :ref:`Metaqbolomics View  <View Metabolomics Dataset>`
-
-
+8. When the upload is finished you can view your metabolites datasets :ref:`Metaqbolomics View  <View Metabolomics Dataset>`
