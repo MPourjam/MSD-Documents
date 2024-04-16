@@ -44,6 +44,6 @@ The table above shows that each mouse has 4 samples and each sample has 2 datase
    feces, at the same time point would be considered two distinguished samples so that two different sample 
    objects at MSD.
 
-.. image:: /media/pics/crc_base.jpg
+.. image:: /media/crc_base.jpg
    :scale: 100 %
    :alt: MSD Database Structure

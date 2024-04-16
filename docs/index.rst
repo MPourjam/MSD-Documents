@@ -28,7 +28,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents:
+   :caption: Contents
 
    source/general_exp
    source/quickstart
