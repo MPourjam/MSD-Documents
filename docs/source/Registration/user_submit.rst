@@ -3,9 +3,7 @@
 
 
 Creating Account
-================
-
-
+----------------
 
 
 As MSD is a platform dedicated to needs of CRC1371 consortium. You need to be a member of CRC1371 consortium in order to 
@@ -33,8 +31,7 @@ In order to create you account at MSD follow the steps below:
     :alt: User Register Form
     :class: user_registration_scsh
 
-    - **Activation Reason**: This is the reason upon which administrator decides whether to activate
-     to activate your account or not. It's suggested to include your subproject within CRC1371.
+    - **Activation Reason**: This is the reason upon which administrator decides whether to activate your account or not. It's suggested to include your subproject within CRC1371.
 
 
 
@@ -48,7 +45,7 @@ In order to create you account at MSD follow the steps below:
 
 
 
-5. You need to wait until MSD administrator approve your account. As your acccount is approved, you can 
+5. You need to wait until MSD administrator approve your account. As your account is approved, you can 
 start using MSD. You will be notified by an email after account approval.
 
 .. figure:: /media/User_Register_activation_email.png
@@ -57,4 +54,4 @@ start using MSD. You will be notified by an email after account approval.
     :alt: Account Approval Email
     :class: user_registration_scsh
 
-Now you have your account activated and you can log in.
+Now you have your account activated, and you can log in.

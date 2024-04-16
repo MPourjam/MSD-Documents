@@ -7,7 +7,7 @@ Organisms View
 
 In organism view you can see information about:
 
-* **MSD_ID**: The ID that MSD will give to your organims. The format is like: \\'**P**[Project Number]**O**[Organism Number]\\'
+* **MSD_ID**: The ID that MSD will give to your organism. The format is like: \\'**P**[Project Number]**O**[Organism Number]\\'
 * **Name**: The name to your organism.
 * **Species**: The scientific name of **type** of organism
 * **Project**: The project this organism belongs to
@@ -15,7 +15,7 @@ In organism view you can see information about:
 * **Genotype**:
 * **Genetic Modification**:
 
-and you can take this actions:
+and you can take these actions:
 
 * **Edit**:
 * **Delete**:

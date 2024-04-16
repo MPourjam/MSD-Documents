@@ -2,7 +2,7 @@
 
 
 Metabolomics Dataset Registration
-=================================
+---------------------------------
 
 
 I. Defining a Metabolomic Run
@@ -32,7 +32,7 @@ In order to submit your metabolomics runs to MSD you need to follow the steps as
 #. Click on `Metabolomics Run` tab. You will see a table with all the metabolomics runs submitted 
     to MSD. You can see the status of each run in the table including **RUN_ID**, **Name**, **Wiff**,
      **Scan**, **Submitter**, **Upload Date**, and **Action**.
-    By clicking on delete icon beside the Wiff file you can delete the uploaded file. Also you can use **download**,
+    By clicking on delete icon beside the Wiff file you can delete the uploaded file. Also, you can use **download**,
      **delete**, and **edit** to manage the run entry.
     
 #. For adding new run fill the form as shown below and click on **Save Metabolomics Run** button.
@@ -80,7 +80,7 @@ containing units of measurements for each metabolite.
 **Columns:**
     *   *Sample_ID*: This column holds the MSD ID of your samples to be used in order to assign upcoming 
         metabolites in the file to proper samples of yours at MSD. MSD knows your samples by this IDs so 
-        that if you provide wrong MSD ID your metabolites in this exel won't be assigned to your registered 
+        that if you provide wrong MSD ID your metabolites in this Excel won't be assigned to your registered 
         sample at MSD. **NOTE** the second row of this column is empty.
     *   *Normalization*: The normalization method which the metabolomics facility used for normalization. 
         **NOTE** the second row of this column is empty.
@@ -178,7 +178,7 @@ described above.
 
     There are two fields you need to give files. **Dataset template**: here you give the filled template 
     mapping metabolites Excel files to *RUN_ID* and *Dataset_Name* :ref:`Metabolomics Dataset Template <Metabolomics Dataset Template>`.
-    **Dataset raw**\: Here you upload the zip file containing all emtaboliltes Excel (e.g\: :ref:`Example of metabolites Excel <MetabolitesexcelScreenShot1>`)
+    **Dataset raw**\: Here you upload the zip file containing all metabolites Excel (e.g\: :ref:`Example of metabolites Excel <MetabolitesexcelScreenShot1>`)
 
 
 

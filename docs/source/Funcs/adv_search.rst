@@ -1,7 +1,6 @@
-Advanced Search
----------------
-
 .. _Advanced Search:
 
+Advanced Search
+---------------
 
 Description of advanced search.

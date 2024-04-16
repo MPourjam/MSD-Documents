@@ -2,17 +2,15 @@
 
 
 Defining Samples
-================
-
-
+----------------
 
 
 So far we have some organisms like below registered at **MSD**. It's time now to define samples which we have taken
-from these organisms. The process of sample registration follows the genaral registration approach in MSD.
+from these organisms. The process of sample registration follows the general registration approach in MSD.
 
 
-In order to register your organisms you need to do **three** major step. Firstly you need to **Create Template**, 
-**Fill the Template** ,and then **Register Template**. The same as registration of organisms which we did in previous section.
+In order to register your organisms you need to do **three** major steps. Firstly you need to **Create Template**, 
+**Fill the Template**, and then **Register Template**. The same as registration of organisms which we did in previous section.
 
 
 
@@ -33,9 +31,9 @@ Below you can read description of each:\
     For metadata whose value you don't provide a default value would be assigned in the database.
 
 .. note::
-    Also please be notified that for all of these optional metadata there would be **choices** to choose in the excel template.
+    Also, please be notified that for all of these optional metadata there would be **choices** to choose in the Excel template.
 
-After you have selected your desired metadata, it's time to create an **Excel template** with desired columns representing your chosen metadta.
+After you have selected your desired metadata, it's time to create an **Excel template** with desired columns representing your chosen metadata.
 To do so click on **Create Sample Template** button.
 
 As an example in the figure below, I am creating a template to submit **both** *human* and *mouse* samples to organisms I defined in :ref:`Register Organism` part.
@@ -47,7 +45,7 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Required Metadata
     :class: sample_registration_scsh
 
-    All *required* sample metadata are already selecte.
+    All *required* sample metadata are already selected.
 
 
 .. figure:: /media/Sample_Create_Template_human.png
@@ -56,8 +54,8 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Human Metadata
     :class: sample_registration_scsh
 
-    You can select any number of human-related metadata and create an excel
-    containing these metadta as columns to fill.
+    You can select any number of human-related metadata and create an Excel
+    containing these metadata as columns to fill.
 
 
 .. figure:: /media/Sample_Create_Template_mouse.png
@@ -66,8 +64,8 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Mouse Metadata
     :class: sample_registration_scsh
 
-    You can select any number of mouse-related metadata and create an excel
-    containing these metadta as columns to fill.
+    You can select any number of mouse-related metadata and create an Excel
+    containing these metadata as columns to fill.
 
 
     
