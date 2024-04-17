@@ -19,7 +19,7 @@ for each of them define only **2** *samples* for which **2** *datasets* would ge
 shows the case.
 
 .. _Concepts Relaion:
-.. csv-table:: Concepts Relation at MSD
+.. csv-table:: Relation of entities at MSD
    :header: "No.", "Organism", "Sample", "Dataset Type"
    :widths: 5, 10, 10, 20
 
@@ -40,7 +40,7 @@ The table above shows that each mouse has 4 samples and each sample has 2 datase
 
 
 .. note::
-   The decision of a *sample* refers to each attempt of sampling. For example, two samples, both taken from
+   Definition of a *sample* refers to each attempt of sampling. For example, two samples, both taken from
    feces, at the same time point would be considered two distinguished samples so that two different sample 
    objects at MSD.
 
