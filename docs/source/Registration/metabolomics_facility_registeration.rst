@@ -5,8 +5,8 @@ Metabolomics Dataset Registration
 ---------------------------------
 
 
-I. Defining a Metabolomic Run
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Defining a Metabolomic Run
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
     This section applies to metabolomics facility operators or members. Here the analysis 
@@ -51,8 +51,8 @@ to MSD. You can see the status of each run in the table including **RUN_ID**, **
 
 .. _Registration of Metabolites:
 
-II. Registration of Metabolites
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Registration of Metabolites (Targeted Metabolomics)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As explained :ref:`here <Concepts Relaion>`, you can assign different types of dataset to 
 one specific sample (See :ref:`Sample Submission <Register Samples>`). In order to add 

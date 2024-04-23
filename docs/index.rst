@@ -19,18 +19,11 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
    This project is under active development so that it changes frequently.
 
 
-.. include:: source/general_exp.rst
-
-
-
-Table of Contents
-=================
 
 .. toctree::
-   :maxdepth: 4
-   :caption: Contents
+   :maxdepth: 3
+   :caption: Explore the documentation
 
    source/general_exp
    source/quickstart
    source/View/views_all
-
