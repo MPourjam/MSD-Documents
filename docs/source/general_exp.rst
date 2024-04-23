@@ -1,8 +1,8 @@
 .. _Database Structure:
 
 
-Database Structure
-==================
+MSD Database Structure
+======================
 
 
 MSD database has a hierarchical structure. We have the concepts of **Projects**, **Organisms**, **Samples**, and **Datasets**.

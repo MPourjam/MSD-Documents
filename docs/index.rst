@@ -22,7 +22,7 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
 
 .. toctree::
    :maxdepth: 3
-   :caption: Explore the documentation
+   :caption: Explore The Documentation
 
    source/general_exp
    source/quickstart
