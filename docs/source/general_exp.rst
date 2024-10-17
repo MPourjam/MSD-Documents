@@ -9,7 +9,7 @@ MSD database has a hierarchical structure. We have the concepts of **Projects**,
 As a user has defined a project, the new project can host various *organisms*, *samples* and *datasets*. A defined *organism*
 can have several samples assigned to and similarly each *sample* might have various *datasets*.
 
-Take this hypothetical situation into consideration. As a researcher you might have project in which you have three mice.
+Imgaine this hypothetical situation: as a researcher you might have project in which you have three mice.
 In this case each mouse would be an *organism* at MSD. Suppose that you plan to compare two types of samples 
 (colon biopsy and feces) and two microbiome analysis methods (16S amplicon and Shotgun sequencing). In 
 order to achieve this you need to attempt one sampling for each sample type and get enough sample for 
@@ -20,29 +20,31 @@ shows the case.
 
 .. _Concepts Relaion:
 .. csv-table:: Relation of entities at MSD
-   :header: "No.", "Organism", "Sample", "Dataset Type"
+   :header: "No.", "Project", "Organism", "Sample", "Dataset Type"
    :widths: 5, 10, 10, 20
 
-   "1", "Mouse_1", "Biopsy", "16S Amplicon"
-   "2", "Mouse_1", "Biopsy", "Shotgun"
-   "3", "Mouse_1", "feces", "16S Amplicon"
-   "4", "Mouse_1", "feces", "Shotgun"
-   "5", "Mouse_2", "Biopsy", "16S Amplicon"
-   "6", "Mouse_2", "Biopsy", "Shotgun"
-   "7", "Mouse_2", "feces", "16S Amplicon"
-   "8", "Mouse_2", "feces", "Shotgun"
-   "9", "Mouse_3", "Biopsy", "16S Amplicon"
-   "10", "Mouse_3", "Biopsy", "Shotgun"
-   "11", "Mouse_3", "feces", "16S Amplicon"
-   "12", "Mouse_3", "feces", "Shotgun"
+   "1", "My_Project", "Mouse_1", "M1_Biopsy_1", "M1_Biopsy_1_16S"
+   "2", "My_Project", "Mouse_1", "M1_Biopsy_1", "M1_Biopsy_1_shotgun"
+   "3", "My_Project", "Mouse_1", "M1_feces_1", "M1_feces_1_16S"
+   "4", "My_Project", "Mouse_1", "M1_feces_1", "M1_feces_1_Shotgun"
+   "5", "My_Project", "Mouse_2", "M2_Biopsy_1", "M2_Biopsy_1_16S"
+   "6", "My_Project", "Mouse_2", "M2_Biopsy_1", "M2_Biopsy_1_Shotgun"
+   "7", "My_Project", "Mouse_2", "M2_feces_1", "M2_feces_1_16S"
+   "8", "My_Project", "Mouse_2", "M2_feces_1", "M2_feces_1_Shotgun"
+   "9", "My_Project", "Mouse_3", "M3_Biopsy_1", "M3_Biopsy_1_16S"
+   "10", "My_Project", "Mouse_3", "M3_Biopsy_1", "M3_Biopsy_1_Shotgun"
+   "11", "My_Project", "Mouse_3", "M3_feces_1", "M3_feces_1_16S"
+   "12", "My_Project", "Mouse_3", "M3_feces_1", "M3_feces_1_Shotgun"
 
-The table above shows that each mouse has 4 samples and each sample has 2 datasets. In total, there are 12 datasets
+The table above shows that each mouse has 4 samples and each sample has 2 datasets. In total, there are 12 datasets.
 
+.. include:: MSD-ID_explanations.rst
 
 .. note::
    Definition of a *sample* refers to each attempt of sampling. For example, two samples, both taken from
    feces, at the same time point would be considered two distinguished samples so that two different sample 
    objects at MSD.
+
 
 .. image:: /media/crc_base.jpg
    :scale: 100 %

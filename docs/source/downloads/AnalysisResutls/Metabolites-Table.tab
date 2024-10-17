@@ -1,0 +1,13 @@
+Metabolite_Name	Normalization_Method	Unit	DTM17_DTM_batch_one_Sample_2	DTM19_DTM_batch_two_Sample_2	DTM21_DTM_batch_one_Sample_0	DTM22_DTM_batch_one_Sample_1	DTM23_DTM_batch_one_Sample_2	DTM25_DTM_batch_two_Sample_2	DTM15_DTM_batch_one_Sample_0	DTM16_DTM_batch_one_Sample_1
+Acetate	Dry	µmol/g	4.652973		8.312360	6.285714	4.652973		8.312360	6.285714
+Acetate	Wet	µmol/g	5.673563	5.673563	3.136667	4.651584	5.673563	5.673563	3.136667	4.651584
+Butyrate	Dry	µmol/g	0.534054		0.552809	0.612245	0.534054		0.552809	0.612245
+Butyrate	Wet	µmol/g	0.548659	0.548659	0.186667	0.655204	0.548659	0.548659	0.186667	0.655204
+Desaminotyrosine	Dry	µmol/g				0.056286				0.056286
+Desaminotyrosine	Wet	µmol/g								
+Indol-3-acetic acid	Dry	nmol/g								
+Indol-3-acetic acid	Wet	nmol/g								
+MyMetabol	Dry	µmol/g				0.002600				0.002600
+MyMetabol	Wet	µmol/g			0.015000				0.015000	
+Propionate	Dry	µmol/g	5.513514		7.982022	8.086531	5.513514		7.982022	8.086531
+Propionate	Wet	µmol/g	8.429119	8.429119	4.130000	6.738462	8.429119	8.429119	4.130000	6.738462
