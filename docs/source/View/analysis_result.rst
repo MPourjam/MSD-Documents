@@ -1,7 +1,7 @@
 .. _Analysis Result:
 
-Analysis Result Explanation
----------------------------
+Analysis Result
+===============
 
 For each 16 analysis done on the platform, you can download the results from the :ref:`JobsView` by clicking on the download icon. 
 By downloading the result you will get a ZIP file like the one below.
@@ -12,7 +12,7 @@ By downloading the result you will get a ZIP file like the one below.
 
 
 Analysis result files
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 mapping.tab
 """""""""""
@@ -32,15 +32,10 @@ version of the metadata for each dataset uploaded to the platform. The columns a
 
 
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/mapping.tab
-                :language: none
-        </pre>
-    </div>
+        .. literalinclude:: source/downloads/AnalysisResults/mapping.tab
+            :language: none
 
 
 .. download:: mapping.tab
@@ -49,7 +44,7 @@ version of the metadata for each dataset uploaded to the platform. The columns a
 
 
 SOTUs-Table.tab
-"""""""""""""""
+---------------
 
 This table has its rows as SOTUs (Species-level OTUs) and columns as datasets names with format of **D<DatasetID>_<given dataset name>** (see `Datasets ID prefix Table`_). 
 Final column of this table is **Taxonomy** which includes the taxonomy assigned to the SOTU by *Sina* and *SILVA database version 138.1*.
@@ -60,15 +55,12 @@ Final column of this table is **Taxonomy** which includes the taxonomy assigned 
     In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
 
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Table.tab
-               :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Table.tab
+        :language: none
+
+
 
 
 .. download:: SOTUs-Table.tab
@@ -77,19 +69,14 @@ Final column of this table is **Taxonomy** which includes the taxonomy assigned 
 
 
 SOTUs-Tree-nj.tre
-"""""""""""""""""
+-----------------
 This is a phylogenetic tree of SOTUs in **Newick** format.
 
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Tree-nj.tre
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Tree-nj.tre
+        :language: none
 
 
 .. download:: SOTUs-Tree-nj.tre
@@ -98,19 +85,14 @@ This is a phylogenetic tree of SOTUs in **Newick** format.
 
 
 SOTUs-Seqs.fasta
-""""""""""""""""
+----------------
 This file contains the sequences of SOTUs in **FASTA** format.
 
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Seqs.fasta
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/SOTUs-Seqs.fasta
+        :language: none
 
 
 .. download:: SOTUs-Seqs.fasta
@@ -119,18 +101,13 @@ This file contains the sequences of SOTUs in **FASTA** format.
 
 
 ZOTUs-Table.tab
-"""""""""""""""
+---------------
 This table has its rows as ZOTUs and columns as datasets names with format of **D<DatasetID>_<Dataset name>**.
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Table.tab
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Table.tab
+        :language: none
 
 
 .. download:: ZOTUs-Table.tab
@@ -139,18 +116,13 @@ This table has its rows as ZOTUs and columns as datasets names with format of **
 
 
 ZOTUs-Seqs.fasta
-""""""""""""""""
+----------------
 This file contains the sequences of ZOTUs in **FASTA** format.
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Seqs.fasta
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Seqs.fasta
+        :language: none
 
 
 .. download:: ZOTUs-Seqs.fasta
@@ -159,18 +131,14 @@ This file contains the sequences of ZOTUs in **FASTA** format.
 
 
 ZOTUs-Tree-nj.tre
-"""""""""""""""""
+-----------------
 This is a phylogenetic tree of ZOTUs in **Newick** format.
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Tree-nj.tre
-                :language: none
-        </pre>
-    </div>
+
+    .. literalinclude:: source/downloads/AnalysisResults/ZOTUs-Tree-nj.tre
+        :language: none
 
 
 .. download:: ZOTUs-Tree-nj.tre
@@ -179,12 +147,12 @@ This is a phylogenetic tree of ZOTUs in **Newick** format.
 
 
 krona_plot.html
-"""""""""""""""
+---------------
 This is a Krona plot of the SOTUs.
 
 .. raw:: html
 
-    <iframe src="/media/krona_plot.html" width="100%" height="500px"></iframe>
+    <iframe src="/source/downloads/AnalysisResults/krona_plot.html" width="100%" height="500px"></iframe>
 
 
 .. download:: krona_plot.html
@@ -193,18 +161,13 @@ This is a Krona plot of the SOTUs.
 
 
 Map-GOTU-FOTU.tab
-"""""""""""""""""
+-----------------
 This two-colum table file contains the mapping information to assign GOTUs to their corresponding FOTUs.
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/Map-GOTU-FOTU.tab
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/Map-GOTU-FOTU.tab
+        :language: none
 
 
 .. download:: Map-GOTU-FOTU.tab
@@ -213,18 +176,13 @@ This two-colum table file contains the mapping information to assign GOTUs to th
 
 
 Map-SOTU-GOTU.tab
-"""""""""""""""""
+-----------------
 This two-colum table file contains the mapping information to assign SOTUs to their corresponding GOTUs.
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/Map-SOTU-GOTU.tab
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/Map-SOTU-GOTU.tab
+        :language: none
 
 
 .. download:: Map-SOTU-GOTU.tab
@@ -233,19 +191,13 @@ This two-colum table file contains the mapping information to assign SOTUs to th
 
 
 Map-ZOTU-SOTU.tab
-"""""""""""""""""
+-----------------
 This two-colum table file contains the mapping information to assign ZOTUs to their corresponding SOTUs.
 
+.. raw:: text
 
-.. raw:: html
-
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/Map-ZOTU-SOTU.tab
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/Map-ZOTU-SOTU.tab
+        :language: none
 
 
 .. download:: Map-ZOTU-SOTU.tab
@@ -254,8 +206,8 @@ This two-colum table file contains the mapping information to assign ZOTUs to th
 
 
 Metabolites-Table.tab
-"""""""""""""""""""""
-This table has its rows as metabolites and columns as datasets names with format of **DTM<DatasetID>_<given dataset name>** (see `Datasets ID prefix Table`_). Each metabolite measurement is unique by combining *Metabolites_Name*, 
+---------------------
+This table has its rows as metabolites and columns as datasets names with format of **DTM<DatasetID>_<given dataset name>** (see :ref:`Datasets ID prefix Table`). Each metabolite measurement is unique by combining *Metabolites_Name*, 
 *Normalization_Method*, and *Unit*. The rest of columns are dataset names with format of **DTM<DatasetID>_<given dataset name>**. The values in the table are the measurements of the metabolites in the corresponding dataset.
 
 .. note:: 
@@ -263,16 +215,13 @@ This table has its rows as metabolites and columns as datasets names with format
     In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
 
 
-.. raw:: html
+.. raw:: text
 
-    <div style="border: 1px solid #ccc; padding: 10px; width: 100%; height: 200px; overflow: auto;">
-        <pre>
-            <!-- Include the content of Map-GOTU-FOTU.tab here -->
-            .. literalinclude:: source/downloads/AnalysisResults/Metabolites-Table.tab
-                :language: none
-        </pre>
-    </div>
+    .. literalinclude:: source/downloads/AnalysisResults/Metabolites-Table.tab
+        :language: none
+
 
 .. download:: Metabolites-Table.tab
     :description: Download a Metabolites-Table.tab example file
     :filename: source/downloads/AnalysisResults/Metabolites-Table.tab
+
