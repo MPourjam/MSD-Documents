@@ -6,9 +6,7 @@ Analysis Result
 For each 16 analysis done on the platform, you can download the results from the :ref:`JobsView` by clicking on the download icon. 
 By downloading the result you will get a ZIP file like the one below.
 
-.. download:: AnalysisResult.zip
-    :description: Download an example of analysis result ZIP
-    :filename: source/downloads/AnalysisResults/Analysis_75.zip
+:download:`AnalysisResult.zip </source/downloads/AnalysisResults/Analysis_75.zip>`
 
 
 Analysis result files
@@ -31,9 +29,7 @@ version of the metadata for each dataset uploaded to the platform. The columns a
     Various dataset types of a sample can then be distinguished by sorting rows by **dataset_type** for a specific **sample_msd_id**. 
 
 
-.. download:: mapping.tab
-    :description: Download a mapping.tab example file
-    :filename: /source/downloads/AnalysisResults/mapping.tab
+:download:`mapping.tab </source/downloads/AnalysisResults/mapping.tab>`
 
 
 SOTUs-Table.tab
@@ -48,45 +44,36 @@ Final column of this table is **Taxonomy** which includes the taxonomy assigned 
     In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
 
 
-.. download:: SOTUs-Table.tab
-    :description: Download a SOTUs-Table.tab example file
-    :filename: /source/downloads/AnalysisResults/SOTUs-Table.tab
+:download:`SOTUs-Table.tab </source/downloads/AnalysisResults/SOTUs-Table.tab>`
 
 
 SOTUs-Tree-nj.tre
 ^^^^^^^^^^^^^^^^^
 This is a phylogenetic tree of SOTUs in **Newick** format.
 
-.. download:: SOTUs-Tree-nj.tre
-    :description: Download a SOTUs-Tree-nj.tre example file
-    :filename: /source/downloads/AnalysisResults/SOTUs-Tree-nj.tre
+
+:download:`SOTUs-Tree-nj.tre </source/downloads/AnalysisResults/SOTUs-Tree-nj.tre>`
 
 
 SOTUs-Seqs.fasta
 ^^^^^^^^^^^^^^^^
 This file contains the sequences of SOTUs in **FASTA** format.
 
-.. download:: SOTUs-Seqs.fasta
-    :description: Download a SOTUs-Seqs.fasta example file
-    :filename: /source/downloads/AnalysisResults/SOTUs-Seqs.fasta
+:download:`SOTUs-Seqs.fasta </source/downloads/AnalysisResults/SOTUs-Seqs.fasta>`
 
 
 ZOTUs-Table.tab
 ^^^^^^^^^^^^^^^
 This table has its rows as ZOTUs and columns as datasets names with format of **D<DatasetID>_<Dataset name>**.
 
-.. download:: ZOTUs-Table.tab
-    :description: Download a ZOTUs-Table.tab example file
-    :filename: /source/downloads/AnalysisResults/ZOTUs-Table.tab
+:download:`ZOTUs-Table.tab </source/downloads/AnalysisResults/ZOTUs-Table.tab>`
 
 
 ZOTUs-Seqs.fasta
 ^^^^^^^^^^^^^^^^
 This file contains the sequences of ZOTUs in **FASTA** format.
 
-.. download:: ZOTUs-Seqs.fasta
-    :description: Download a ZOTUs-Seqs.fasta example file
-    :filename: /source/downloads/AnalysisResults/ZOTUs-Seqs.fasta
+:download:`ZOTUs-Seqs.fasta </source/downloads/AnalysisResults/ZOTUs-Seqs.fasta>`
 
 
 ZOTUs-Tree-nj.tre
@@ -94,23 +81,15 @@ ZOTUs-Tree-nj.tre
 This is a phylogenetic tree of ZOTUs in **Newick** format.
 
 
-.. download:: ZOTUs-Tree-nj.tre
-    :description: Download a ZOTUs-Tree-nj.tre example file
-    :filename: /source/downloads/AnalysisResults/ZOTUs-Tree-nj.tre
+:download:`ZOTUs-Tree-nj.tre </source/downloads/AnalysisResults/ZOTUs-Tree-nj.tre>`
 
 
 krona_plot.html
 ^^^^^^^^^^^^^^^
-This is a Krona plot of the SOTUs.
-
-.. raw:: html
-
-    <iframe src="/source/downloads/AnalysisResults/krona_plot.html" width="100%" height="500px"></iframe>
+This is a Krona plot of the SOTUs.It shows the taxonomic distribution of the SOTUs in a hierarchical way.
 
 
-.. download:: krona_plot.html
-    :description: Download a krona_plot.html example file
-    :filename: /source/downloads/AnalysisResults/krona_plot.html
+:download:`krona_plot.html </source/downloads/AnalysisResults/krona_plot.html>`
 
 
 Map-GOTU-FOTU.tab
@@ -118,9 +97,7 @@ Map-GOTU-FOTU.tab
 This two-column table file contains the mapping information to assign GOTUs to their corresponding FOTUs.
 
 
-.. download:: Map-GOTU-FOTU.tab
-    :description: Download a Map-GOTU-FOTU.tab example file
-    :filename: /source/downloads/AnalysisResults/Map-GOTU-FOTU.tab
+:download:`Map-GOTU-FOTU.tab </source/downloads/AnalysisResults/Map-GOTU-FOTU.tab>`
 
 
 Map-SOTU-GOTU.tab
@@ -128,9 +105,7 @@ Map-SOTU-GOTU.tab
 This two-colum table file contains the mapping information to assign SOTUs to their corresponding GOTUs.
 
 
-.. download:: Map-SOTU-GOTU.tab
-    :description: Download a Map-SOTU-GOTU.tab example file
-    :filename: /source/downloads/AnalysisResults/Map-SOTU-GOTU.tab
+:download:`Map-SOTU-GOTU.tab </source/downloads/AnalysisResults/Map-SOTU-GOTU.tab>`
 
 
 Map-ZOTU-SOTU.tab
@@ -138,9 +113,7 @@ Map-ZOTU-SOTU.tab
 This two-colum table file contains the mapping information to assign ZOTUs to their corresponding SOTUs.
 
 
-.. download:: Map-ZOTU-SOTU.tab
-    :description: Download a Map-ZOTU-SOTU.tab example file
-    :filename: /source/downloads/AnalysisResults/Map-ZOTU-SOTU.tab
+:download:`Map-ZOTU-SOTU.tab </source/downloads/AnalysisResults/Map-ZOTU-SOTU.tab>`
 
 
 Metabolites-Table.tab
@@ -153,7 +126,5 @@ This table has its rows as metabolites and columns as datasets names with format
     In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
 
 
-.. download:: Metabolites-Table.tab
-    :description: Download a Metabolites-Table.tab example file
-    :filename: /source/downloads/AnalysisResults/Metabolites-Table.tab
+:download:`Metabolites-Table.tab </source/downloads/AnalysisResults/Metabolites-Table.tab>`
 
