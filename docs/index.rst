@@ -27,3 +27,4 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
    source/general_exp
    source/quickstart
    source/View/views_all
+   source/View/analysis_result

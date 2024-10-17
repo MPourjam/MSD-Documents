@@ -35,11 +35,8 @@ This table displays the status and details of your submitted jobs on the platfor
 
 Make sure to check the **Status** column to know when your job has finished or if it failed, and use the appropriate actions to download or delete the results.
 
-.. figure:: /media/Jobs-page.png
+.. figure:: /media/Jobs-Page.png
     :align: center
     :scale: 100 %
     :alt: Jobs Table
     :class: jobs_table_view
-
-    An example of the Jobs page displaying the status of submitted jobs.
-
