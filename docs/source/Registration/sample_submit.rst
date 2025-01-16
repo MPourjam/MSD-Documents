@@ -5,7 +5,7 @@ Defining Samples
 ----------------
 
 
-So far we have some organisms like below registered at **MSD**. It's time now to define samples which we have taken
+So far we have some organisms like above registered at **MSD**. It's time now to define samples which we have taken
 from these organisms. The process of sample registration follows the general registration approach in MSD.
 
 
@@ -28,7 +28,7 @@ Below you can read description of each:\
 * **Optional Mouse/Pig Metadata**: Under this tab you can see all metadata relevant to each sample **derived from mouse or pig**. You can select of which metadata you want to store information in the databse.
 
 .. note::
-    For metadata whose value you don't provide a default value would be assigned in the database.
+    The metadata values not provided by the user a default value would be assigned in the database.
 
 .. note::
     Also, please be notified that for all of these optional metadata there would be **choices** to choose in the Excel template.
@@ -45,7 +45,7 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Required Metadata
     :class: sample_registration_scsh
 
-    All *required* sample metadata are already selected.
+    All *required* sample metadata entries are already selected.
 
 
 .. figure:: /media/Sample_Create_Template_human.png
@@ -70,31 +70,31 @@ As an example in the figure below, I am creating a template to submit **both** *
 
     
 Now that I have selected metadta I want to provide for pool of my samples being to upload, I click on **Create Sample Template** button to download the
-excel tamplate with desired metadata to fill.
+Excel tamplate with desired metadata to fill.
 
 II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Now you have an excel template with columns being the metadata you chose in previous step. For each row being each of your samples you need to provide the corresponding values.
+Now you have an Excel template with columns being the metadata you chose in previous step. For each row being each of your samples you need to provide the corresponding values.
 
 .. note::
-    Please be careful to open the excel file with **English Excel** and **NOT** the **German excel**.
+    Please be careful to open the Excel file with **English Excel** and **NOT** the **German Excel**.
 
-You can find the difinition of each metadata below:
+You can find the definition of each metadata entry below:
 
 **Required Sample Metadata**
 
 
 .. note::
-    All sample metadata refers to **time of sampling**. For example, if the organism (human) used to smoke regularly when the sampling
+    All sample metadata corresponds to the value at the **time of sampling**. For example, if the organism (human) used to smoke regularly when the sampling
     took place, then the value of "smoking" column for the samples taken place then should be **YES**.
 
 
 
 * **External_ID**: The external ID to your sample *if* it is registered in other platforms such as *SRA* [1]_. If  it's not registered to any platform then leave it blak.
 * **MSD_ID**: If you want to modify metadata of your samples already registered, you can put their *MSD ID* here and fill the column values. Doing so will tell MSD to update
-  the metdata of your sample with provided *MSD ID* with new ones you are providing in this excel template.
+  the metdata of your sample with provided *MSD ID* with new ones you are providing in this Excel template.
 * **Name**: The name you want to give your sample. It should be **unique** throughout all samples registered in the project to which origin organism belongs.
 * **Description**: A description of for each sample. It will make it easier to search through your samples using :ref:`Advanced Search` feature.
 * **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part your sample is originated. In order to get this ID you need to
@@ -106,7 +106,7 @@ You can find the difinition of each metadata below:
 * **Age**: Age of the **organism** at time of sampling.
 * **Age_Unit**: The unit of Age.
 * **Preservation**: Type of sample preservation you have used for preserving your taken samples. Choose from drop-down menu. 
-* **Sampling_Protocol_ID**: The sampling protocl that you have used for sampling and registered in :ref:`Register Protocol` step.
+* **Sampling_Protocol_ID**: The sampling protocol that you have used for sampling and registered in :ref:`Register Protocol` step.
 * **Collection_Date**: Date of sampling. The format YYYY-MM-DD is preferred.
 * **Collection_Time**: Time of sampling. The format HH:MM is preferred.
 * **Collection_Country**: The country where the sampling has taken place. It should be a two-letter standard code of the country according to `ISO_3166 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_.
@@ -149,14 +149,14 @@ You can find the difinition of each metadata below:
 
 
 After all your selected metadata you can place any number of columns with your desired name as *custom metadata* and provide related value to them 
-for each of your samples. These custom metadata are stored and your can see and export them for downstream analysis.
+for each of your samples. These custom metadata are stored and you can see and export them for downstream analysis.
 
 * **Custom_1**: You can rename these default columns to hold metadata name you desire.
 * **Custom_1**: You can rename these default columns to hold metadata name you desire.
 
 You can also add any number of columns after all MSD standard metadata and provide values for them.
 
-You see and example of filled sample template excel below:
+You see and example of filled sample template Excel below:
 
 
 .. figure:: /media/Sample_register_example_-ORID.png
@@ -240,8 +240,8 @@ You see and example of filled sample template excel below:
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Now that we have filled the excel template it's time to upload it and register our samples to MSD. In order to upload your filled excel you need to go to 
-**Submit** tab -> **Samples** sub-tab -> **Register Template**. There you can *Browse* your computer for your filled excel template and by clicking 
+Now that we have filled the Excel template it's time to upload it and register our samples to MSD. In order to upload your filled Excel you need to go to 
+**Submit** tab -> **Samples** sub-tab -> **Register Template**. There you can *Browse* your computer for your filled Excel template and by clicking 
 **Upload Samples** button you introduce your samples to MSD.
 
 
