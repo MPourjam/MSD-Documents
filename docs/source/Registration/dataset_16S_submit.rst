@@ -30,7 +30,7 @@ Now that we have the Excel template download we need to fill each of rows in the
 
 
 .. note::
-    The first two columns of dataset Excel template are important (**DIS_Sampling_ID** and **Sample_ID**). You can for each dataset you are 
+    The first two columns of dataset Excel template are important (**DIS_Sampling_ID** and **Sample_ID**). For each dataset you are 
     uploading you can provide *both* or *one of them*.
     - Providing only **DIS_Sampling_ID**: implies retrieval of metatada automatically from DIS and registration of related organisms and samples. 
     Therefore, there is *no need* to follow :ref:`Register Organism` and :ref:`Register Samples` steps.
@@ -89,7 +89,7 @@ Your zip file should contain your *fastq files* (all you have put their file nam
 *Forward_Filename* and *Backward_Filename*). The zip file should **NOT** contain any folders inside. 
 By opening the zip file you should only see the fastq (or fastq.gz) files. 
 
-An example of filled dataset excel you can find as below:
+An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_DISID-Acc.png
     :align: center

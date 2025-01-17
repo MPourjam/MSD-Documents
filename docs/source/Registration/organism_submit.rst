@@ -6,8 +6,8 @@ Defining Organisms
 
 
 So far we have submitted prerequisites to registration of **Organisms**, **Samples** and **Datasets**.
-Registration of Organism and then Samples **always comes before datasets**. It is *recommended* that by start of
-your project define your organisms at MSD and by each sampling attempt to define your samples at MSD. Having done 
+Registration of Organism and then Samples **always comes before datasets**. It is *recommended* that you define your organisms at MSD during the start of
+your project and that you define samples at MSD for each sampling attempt. Having done 
 that will help not only by tracking and documenting your project but also by registration of datasets.
 
 
@@ -45,10 +45,10 @@ and **Mouse Required Metadata**.
 II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to introduce your organisms to `MSD <https://www.misigdb.org/>`_, you need to fill the rows with downloaded excel with selected metadata as columns.
+In order to introduce your organisms to `MSD <https://www.misigdb.org/>`_, you need to fill the rows with downloaded Excel with selected metadata as columns.
 
 .. note::
-    Please be careful to open the Excel file with **English Excel** and **NOT** the **German excel**.
+    Please be careful to open the Excel file with **English Excel** and **NOT** the **German Excel**.
 
 
 You can find description of each column as below:
@@ -80,8 +80,7 @@ You can find description of each column as below:
 
 *Human Required Metadata*
 
-According to type of organism you are submitting you need to related metadata. If you are defining **human** organisms
- then fill following metadata:
+According to the type of organism you are submitting you need to save the related metadata. If you are defining **human** organisms, fill the following metadata:
 
 * **Place of Birth**: Choose related regions from the drop-down menu.
 * **Medical History**: If there is specific information about the medical history of your organism then add it here. No more than **100** characters.

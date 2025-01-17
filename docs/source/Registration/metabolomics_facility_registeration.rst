@@ -54,12 +54,12 @@ to MSD. You can see the status of each run in the table including **RUN_ID**, **
 Registration of Metabolites (Targeted Metabolomics)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As explained :ref:`here <Concepts Relaion>`, you can assign different types of dataset to 
+As explained :ref:`here <Concepts Relaion>`, you can assign different types of datasets to 
 one specific sample (See :ref:`Sample Submission <Register Samples>`). In order to add 
 measured metabolites to your samples you need to follow the steps as below:
 
 
-1. Submission of your :ref:`samples <Register Samples>` and assign them to related \
+1. Submission and assignment of your :ref:`samples <Register Samples>` to related \
 :ref:`organisms <Register Organism>` in one of your :ref:`projects <Register Project>`. \
 After having registered your samples you will be given a sample ID for each registered \
 sample (See :ref:`view samples <View Samples>`).
@@ -143,7 +143,7 @@ The template has three main columns explained as below:
 **Excel Template Columns**:
 - *Dataset_Name*: This name will be prepended to the name of samples you have given in the metabolites Excel \
 given as *File_Name*. Imagine you have given the dataset the name *"Measurement-1-Project-1"* (as \
-shown in the figure above) and content of *"MetabolitesExample1.xlsx"* are as shown in \
+shown in the figure above) and content of *"MetabolitesExample1.xlsx"* is as shown in \
 `Metabolites Excel 1 <MetabolitesExcelScreenShot1>`_. When you submit your dataset MSD will take name of the \
 first sample (the sample with ID of *P10O2S3*) and prepend it with the value given as *Dataset_Name*. If the \
 name of sample (*P10O2S3*) is *TM7258_B3* then the name of corresponding metabolomics dataset for this sample \

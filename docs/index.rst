@@ -16,7 +16,7 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
 
 .. note::
 
-   This project is under active development so that it changes frequently.
+   This project is under active development and thus it is subject change.
 
 
 
