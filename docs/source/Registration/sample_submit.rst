@@ -23,17 +23,17 @@ I. Create Template
 Under **Samples** subtab you will see various other tabs named **Sample Required Metadata**, **Optional Human Metadata**, and **Optional Mouse/Pig Metadata**.
 Below you can read description of each:\
 
-* **Sample Required Metadata**: Under this tab you can see all metadata required for each sample to be registered at **MSD**. They are already preselected as they are required.
-* **Optional Human Metadata**:  Under this tab you can see all metadata relevant to each sample **derived from human**. You can select of which metadata you want to store information in the databse. 
-* **Optional Mouse/Pig Metadata**: Under this tab you can see all metadata relevant to each sample **derived from mouse or pig**. You can select of which metadata you want to store information in the databse.
+* **Sample Required Metadata**: Under this tab you can see all metadata entries that are required for each sample to be registered at **MSD**. They are automatically preselected.
+* **Optional Human Metadata**:  Under this tab you can see all metadata entries relevant to each sample **derived from human**. You can select which metadata entries will be stored in the databse. 
+* **Optional Mouse/Pig Metadata**: Under this tab you can see all metadata entries relevant to each sample **derived from mouse or pig**. You can select which metadata entries will be stored in the databse.
 
 .. note::
     The metadata values not provided by the user a default value would be assigned in the database.
 
 .. note::
-    Also, please be notified that for all of these optional metadata there would be **choices** to choose in the Excel template.
+    All optional metadata entries will have **choices** for values in the Excel template.
 
-After you have selected your desired metadata, it's time to create an **Excel template** with desired columns representing your chosen metadata.
+After you have configured your desired metadata, it's time to create an **Excel template** with desired columns representing your chosen entries.
 To do so click on **Create Sample Template** button.
 
 As an example in the figure below, I am creating a template to submit **both** *human* and *mouse* samples to organisms I defined in :ref:`Register Organism` part.
@@ -54,8 +54,8 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Human Metadata
     :class: sample_registration_scsh
 
-    You can select any number of human-related metadata and create an Excel
-    containing these metadata as columns to fill.
+    You can select any number of human-related metadata entries and create an Excel
+    containing this metadata as columns to fill.
 
 
 .. figure:: /media/Sample_Create_Template_mouse.png
@@ -64,7 +64,7 @@ As an example in the figure below, I am creating a template to submit **both** *
     :alt: Create Organism Template - Mouse Metadata
     :class: sample_registration_scsh
 
-    You can select any number of mouse-related metadata and create an Excel
+    You can select any number of mouse-related metadata entries and create an Excel
     containing these metadata as columns to fill.
 
 
@@ -100,17 +100,17 @@ You can find the definition of each metadata entry below:
 * **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part your sample is originated. In order to get this ID you need to
   use the search box in :ref:`Origin View`. When you found the ORID of you sample you copy that ID to this cell. For example, **1.3.7** is the ID of saliva (material) taken from Salivary Gland (localization)
   in mouth (organ). You can choose this ORID from the drop-down menu.
-* **Organism_ID**: The MSD ID of organism to which the sample belongs. You can view your organisms of your project at :ref:`Organism View`. You can choose your organism MSD ID from the drop-down menu.
+* **Organism_ID**: The MSD ID of the organism from which the sample was taken. You can view your organisms of your project at :ref:`Organism View`. You can choose your organism MSD ID from the drop-down menu.
 * **Weight**: Weight of you sample.
 * **Weight_Unit**: The unit of Weight of your sample.
 * **Age**: Age of the **organism** at time of sampling.
 * **Age_Unit**: The unit of Age.
 * **Preservation**: Type of sample preservation you have used for preserving your taken samples. Choose from drop-down menu. 
 * **Sampling_Protocol_ID**: The sampling protocol that you have used for sampling and registered in :ref:`Register Protocol` step.
-* **Collection_Date**: Date of sampling. The format YYYY-MM-DD is preferred.
-* **Collection_Time**: Time of sampling. The format HH:MM is preferred.
+* **Collection_Date**: Date of sampling in the YYYY-MM-DD format.
+* **Collection_Time**: Time of sampling in the HH:MM format.
 * **Collection_Country**: The country where the sampling has taken place. It should be a two-letter standard code of the country according to `ISO_3166 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_.
-* **Collection_Location_(GPS)**: The Sample Collection Location's coordinates. Please watch this tutorial video about how to find the latitude and longitude on google maps: `video <https://www.youtube.com/watch?v=2yOX7soSPeQ&ab_channel=TechIntimidation>`_.
+* **Collection_Location_(GPS)**: The coordinates of the Sample Collection Location. Please watch this tutorial video about how to find the latitude and longitude on google maps: `video <https://www.youtube.com/watch?v=2yOX7soSPeQ&ab_channel=TechIntimidation>`_.
   The format is like: Latitude, Longitude. For example: 48.39814451278265, 11.737600673415221
 
 **Human Sample Metadata**
@@ -149,10 +149,10 @@ You can find the definition of each metadata entry below:
 
 
 After all your selected metadata you can place any number of columns with your desired name as *custom metadata* and provide related value to them 
-for each of your samples. These custom metadata are stored and you can see and export them for downstream analysis.
+for each of your samples. These custom metadata is stored and you can see and export it for downstream analysis.
 
-* **Custom_1**: You can rename these default columns to hold metadata name you desire.
-* **Custom_1**: You can rename these default columns to hold metadata name you desire.
+* **Custom_1**: You can rename these default columns to hold metadata entry name you desire.
+* **Custom_1**: You can rename these default columns to hold metadata entry name you desire.
 
 You can also add any number of columns after all MSD standard metadata and provide values for them.
 

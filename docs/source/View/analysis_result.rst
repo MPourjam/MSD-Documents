@@ -14,7 +14,7 @@ Analysis result files
 
 mapping.tab
 ^^^^^^^^^^^
-This table file contains metadata information about each dataset in **features tables** (e.g: SOTUs, ZOTUs, Metabolites, ... tables). This is the serialized 
+This table file contains metadata information about each dataset in **feature tables** (e.g: SOTUs, ZOTUs, Metabolites, ... tables). This is the serialized 
 version of the metadata for each dataset uploaded to the platform. The columns are ordered as follows:
 
 - **dataset-specific columns**: metadata at dataset Level (e.g: dataset name, dataset type, sequencing method)
@@ -23,8 +23,8 @@ version of the metadata for each dataset uploaded to the platform. The columns a
 - **sample-specific columns**: metadata at sample Level (e.g: sample name, sample type, sample collection date)
 
 .. note:: 
-    The column *dataset_name_in_features_table* contains the names of the datasets in the corresponding **features tables**. 
-    This column is used to map the metadata to the corresponding dataset in the **features tables**. 
+    The column *dataset_name_in_feature_table* contains the names of the datasets in the corresponding **feature tables**. 
+    This column is used to map the metadata to the corresponding dataset in the **feature tables**. 
 
     Various dataset types of a sample can then be distinguished by sorting rows by **dataset_type** for a specific **sample_msd_id**. 
 
@@ -41,7 +41,7 @@ Final column of this table is **Taxonomy** which includes the taxonomy assigned 
 
 .. note:: 
 
-    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
+    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
 
 
 :download:`SOTUs-Table.tab </source/downloads/AnalysisResults/SOTUs-Table.tab>`
@@ -123,7 +123,7 @@ This table has its rows as metabolites and columns as datasets names with format
 
 .. note:: 
 
-    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_features_table** column in the **mapping.tab** file. 
+    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
 
 
 :download:`Metabolites-Table.tab </source/downloads/AnalysisResults/Metabolites-Table.tab>`

@@ -11,7 +11,7 @@ to for sequencing and from the same sample producing metabolomics data.
 
 In this part we explain the last step of dataset registration for **16S rRNA** amplicon sequences.
 
-The steps we take, as it was for sample and organism registration, are **Creating** a template, **Filling** the template, **Preparation** of fastq files,and **Uploadin** the template. For dataset uploading, 
+The steps we take, as it was for sample and organism registration, are **Creating** a template, **Filling** the template, **Preparation** of fastq files,and **Uploading** the template. For dataset uploading, 
 we also upload the raw files needed to get processed with the template.
 
 
@@ -26,7 +26,7 @@ By clicking on **Create Dataset Template** and you will have an Excel template d
 II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now that we have the Excel template download we need to fill each of rows in the Excel template for each of datasets produced from our sample.
+Now that we have the Excel template download we need to fill each of rows in the Excel template for each dataset produced from the sample.
 
 
 .. note::

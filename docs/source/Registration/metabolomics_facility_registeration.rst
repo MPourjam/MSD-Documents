@@ -68,7 +68,7 @@ sample (See :ref:`view samples <View Samples>`).
 
 
 .. note::
-    It's recommended to submit your samples before sending their material to metabolomics \
+    It's recommended to submit your samples before sending the material to metabolomics \
     lab and use MSD Sample IDs (e.g: P10O252S134) as identifier of your samples in :ref:`metabolomics runs <Metabolomics Run>`.
 
 3. Receive metabolites Excel files of your metabolites' measurement requests from metabolomics \
@@ -83,17 +83,17 @@ containing units of measurements for each metabolite.
 **Excel Template Columns:**
 
 - *Sample_ID*: This column holds the MSD ID of your samples to be used in order to assign upcoming \
-metabolites in the file to proper samples of yours at MSD. MSD knows your samples by this IDs so \
-that if you provide wrong MSD ID your metabolites in this Excel won't be assigned to your registered \
-sample at MSD. **NOTE** the second row of this column is empty.\
-*Normalization*: The normalization method which the metabolomics facility used for normalization. \
-**NOTE** the second row of this column is empty. \
+    metabolites in the file to proper samples of yours at MSD. MSD knows your samples by these IDs so \
+    that if you provide wrong MSD ID your metabolites in this Excel won't be assigned to your registered \
+    sample at MSD. **NOTE** the second row of this column is empty.\
+    *Normalization*: The normalization method which the metabolomics facility used for normalization. \
+    **NOTE** the second row of this column is empty. \
 
 
 - *Metabolites Columns*: From column **C** you should have metabolites names as first row (i.e: header) \
-and the unit of values in the next row. There should be values of the corresponding metabolites in the \
-rows related to each of your samples. In case of not having values for a specific metabolite in a \
-sample value **N/A** should be placed. (See figure of second metabolites example Excel)
+    and the unit of values in the next row. There should be values of the corresponding metabolites in the \
+    rows related to each of your samples. In case of not having values for a specific metabolite in a \
+    sample value **N/A** should be placed. (See figure of second metabolites example Excel)
 
 
 .. _MetabolitesExcelScreenShot1:
@@ -153,9 +153,9 @@ which includes all the metabolites assigned to sample with ID of *P10O2S3* in \
 `Metabolites Excel 1 <MetabolitesExcelScreenShot1>`_ .  
 
 - *RUN_ID*: This cell should be a drop-down choice list containing *Run IDs* submitted by metabolomics facility \
-to MSD (refer to :ref:` Submission of Run IDs <Submission of Metabolomics Runs>`). You should ask metabolomics \
-facility which did your measurements for this ID then choose the correct ID for your dataset. By this ID we \
-relate your dataset to proper raw run files submitted by metabolomics facility.
+    to MSD (refer to :ref:` Submission of Run IDs <Submission of Metabolomics Runs>`). You should ask metabolomics \
+    facility which did your measurements for this ID then choose the correct ID for your dataset. By this ID we \
+    relate your dataset to proper raw run files submitted by metabolomics facility.
 
     .. note::
         If you are using Excel program with default language other than *English* version, the drop-down might not 
@@ -163,9 +163,9 @@ relate your dataset to proper raw run files submitted by metabolomics facility.
         Run IDs under a column named **Raw Sources ID**.
 
 - *File_Name*: These columns establish a relation between metabolites Excel files containing metabolites and sample IDs \
-to your *Dataset_Name* and *RUN_ID*. MSD will look in the zip file containing your metabolites Excel files and tries \
-to find the given file name under this column there. Then it parses the metabolites in the metabolites Excel files and \
-assign them to proper metabolomics run (i.e\: *RUN_ID*) and metabolomic dataset name (i.e: *Dataset_Name*)
+    to your *Dataset_Name* and *RUN_ID*. MSD will look in the zip file containing your metabolites Excel files and tries \
+    to find the given file name under this column there. Then it parses the metabolites in the metabolites Excel files and \
+    assign them to proper metabolomics run (i.e\: *RUN_ID*) and metabolomic dataset name (i.e: *Dataset_Name*)
 
 
 

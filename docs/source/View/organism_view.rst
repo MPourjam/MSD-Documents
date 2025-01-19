@@ -11,14 +11,14 @@ In organism view you can see information about:
 * **Name**: The name to your organism.
 * **Species**: The scientific name of **type** of organism
 * **Project**: The project this organism belongs to
-* **Sex**: The gender of your organism
-* **Genotype**:
-* **Genetic Modification**:
+* **Sex**: The biological sex of the organism
+* **Genotype**
+* **Genetic Modification**
 
 and you can take these actions:
 
-* **Edit**:
-* **Delete**:
+* **Edit**
+* **Delete**
 
 
 .. figure:: /media/Organism_View_Table.png

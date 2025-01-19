@@ -11,7 +11,7 @@ your project and that you define samples at MSD for each sampling attempt. Havin
 that will help not only by tracking and documenting your project but also by registration of datasets.
 
 
-In order to register your organisms you need to do **three** major steps. Firstly you need to **Create Template** 
+In order to register your organisms you need to follow **three** major steps. Firstly you need to **Create Template** 
 and then **Register Template**. For registration of *Samples* and *Datasets* these two major steps are followed 
 as well.
 
