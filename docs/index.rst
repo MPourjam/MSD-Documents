@@ -40,8 +40,6 @@ Prequisites for uploading the datasets
    #. Define organisms at MSD as soon as you register the project they will be investigated in.
    #. Define separate samples for each sampling attempt.
    #. The Data provided in the samples must correspond to the status at the time of taking the sample.
-   #. DIS users should first fillout DIS data and only then upload it to MSD. There is an easy way to import metadata for samples from DIS
-      but not the other way around. 
    #. For each of the 16S datasets ask the sequencing facility to provide the information about forward and reverse primers used in the sequencing.
       The information is required to registrate this datasets for MSD.
    #. For registration of a metabolomics dataset it is required to be registered as a metabolomics group operator at MSD. If you intend to 
