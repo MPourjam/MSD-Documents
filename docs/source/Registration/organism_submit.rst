@@ -113,9 +113,9 @@ If you are submitting **mouse** organisms then fill the following only.
     An example of filled row for these metadata.
 
 
-The figure below shows an example of defining 3 mice and 2 human organisms to my project defined in :ref:`Register Project`.
-After finding the **Project_ID** of the project of mine I want to define the organisms inside from :ref:`Protocol View`, I will 
-fill the 5 rows for 5 organisms but as they belong to different species I fill the rows differently as below.
+The figure below shows an example of defining 3 mice and 2 human organisms to a project defined in :ref:`Register Project`.
+After finding the **Project_ID** of the project the organisms will be defined in the :ref:`Protocol View`.
+ The 5 rows for 5 organisms will be filled but as they belong to different species the rows will be filled differently as below.
 
 .. note::
     Pay attention that for the sake of better representation relative columns are not shown.

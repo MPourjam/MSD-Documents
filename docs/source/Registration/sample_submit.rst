@@ -36,7 +36,7 @@ Below is the description description of each:\
 After the desired metadata has been configured, it's time to create an **Excel template** with desired columns representing the chosen entries.
 To do so click on **Create Sample Template** button.
 
-As an example in the figure below, I am creating a template to submit **both** *human* and *mouse* samples to organisms I defined in :ref:`Register Organism` part.
+An example in the figure below, creates a template to submit **both** *human* and *mouse* samples to organisms  defined in :ref:`Register Organism` part.
 
 
 .. figure:: /media/Sample_Create_Template_required.png
@@ -69,8 +69,8 @@ As an example in the figure below, I am creating a template to submit **both** *
 
 
     
-Now that I have selected metadta I want to provide for pool of my samples being to upload, I click on **Create Sample Template** button to download the
-Excel tamplate with desired metadata to fill.
+Now that the metadata is selected, a pool of the samples to upload should be provided, click on **Create Sample Template** button to download the
+Excel template with the desired metadata to be filled.
 
 II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
