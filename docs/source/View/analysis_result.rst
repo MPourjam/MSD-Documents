@@ -4,7 +4,7 @@ Analysis Result
 ===============
 
 For each 16 analysis done on the platform, you can download the results from the :ref:`JobsView` by clicking on the download icon. 
-By downloading the result you will get a ZIP file like the one below.
+By the download result is a ZIP file like the one below.
 
 :download:`AnalysisResult.zip </source/downloads/AnalysisResults/Analysis_75.zip>`
 
@@ -41,7 +41,7 @@ Final column of this table is **Taxonomy** which includes the taxonomy assigned 
 
 .. note:: 
 
-    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
+    In order to map corresponding metadata to datasets in this table, use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
 
 
 :download:`SOTUs-Table.tab </source/downloads/AnalysisResults/SOTUs-Table.tab>`
@@ -123,7 +123,7 @@ This table has its rows as metabolites and columns as datasets names with format
 
 .. note:: 
 
-    In order to map corresponding metadata to datasets in this table, you need to use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
+    In order to map corresponding metadata to datasets in this table, to use **dataset_name_in_feature_table** column in the **mapping.tab** file. 
 
 
 :download:`Metabolites-Table.tab </source/downloads/AnalysisResults/Metabolites-Table.tab>`

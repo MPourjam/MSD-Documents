@@ -9,13 +9,13 @@ MSD database has a hierarchical structure. We have the concepts of **Projects**,
 As a user has defined a project, the new project can host various *organisms*, *samples* and *datasets*. A defined *organism*
 can have several samples assigned to and similarly each *sample* might have various *datasets*.
 
-Imgaine this hypothetical situation: as a researcher you might have project in which you have three mice.
-In this case each mouse would be an *organism* at MSD. Suppose that you plan to compare two types of samples 
+Imgaine this hypothetical situation: research project in featuring three mice.
+In this case each mouse would be an *organism* at MSD. Suppose it is important to compare two types of samples 
 (colon biopsy and feces) and two microbiome analysis methods (16S amplicon and Shotgun sequencing). In 
-order to achieve this you need to attempt one sampling for each sample type and get enough sample for 
-each sample type to send for different sequencing methods. It means that you would take 2 samples from each mouse 
-and produce 2 datasets from each sample. Thus, you need to define all your mice as *organism* at MSD and 
-for each of them define only **2** *samples* for which **2** *datasets* would get generated and uploaded to MSD. The table below
+order to achieve this it is required to attempt one sampling for each sample type and get enough sample for 
+each sample type to send for different sequencing methods. It means that 2 samples from each mouse  will be taken
+and from each sample 2 datasets would be produced. Thus, all three mice should be defined as *organism* at MSD and 
+for each of them only **2** *samples* are defined for which **2** *datasets* would get generated and uploaded to MSD. The table below
 shows the case.
 
 .. _Concepts Relaion:

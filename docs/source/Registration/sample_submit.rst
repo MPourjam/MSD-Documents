@@ -9,23 +9,23 @@ So far we have some organisms like above registered at **MSD**. It's time now to
 from these organisms. The process of sample registration follows the general registration approach in MSD.
 
 
-In order to register your organisms you need to do **three** major steps. Firstly you need to **Create Template**, 
+In order to register the organisms you need to follow **three** major steps. Firstly **Create Template**, then
 **Fill the Template**, and then **Register Template**. The same as registration of organisms which we did in previous section.
 
 
 
 .. note::
-    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab in top bar -> **Samples** subtab.
+    In order to submit the samples and make the relation to their corresponding organisms,  go to **Submit** tab in top bar -> **Samples** subtab.
 
 
 I. Create Template
 ^^^^^^^^^^^^^^^^^^
-Under **Samples** subtab you will see various other tabs named **Sample Required Metadata**, **Optional Human Metadata**, and **Optional Mouse/Pig Metadata**.
-Below you can read description of each:\
+Under **Samples** subtab there will be other tabs named **Sample Required Metadata**, **Optional Human Metadata**, and **Optional Mouse/Pig Metadata**.
+Below is the description description of each:\
 
-* **Sample Required Metadata**: Under this tab you can see all metadata entries that are required for each sample to be registered at **MSD**. They are automatically preselected.
-* **Optional Human Metadata**:  Under this tab you can see all metadata entries relevant to each sample **derived from human**. You can select which metadata entries will be stored in the databse. 
-* **Optional Mouse/Pig Metadata**: Under this tab you can see all metadata entries relevant to each sample **derived from mouse or pig**. You can select which metadata entries will be stored in the databse.
+* **Sample Required Metadata**: Under this tab there are all metadata entries that are required for each sample to be registered at **MSD**. They are automatically preselected.
+* **Optional Human Metadata**:  Under this tab there are all metadata entries relevant to each sample **derived from human**. You can select which metadata entries will be stored in the databse. 
+* **Optional Mouse/Pig Metadata**: Under this tab there are all metadata entries relevant to each sample **derived from mouse or pig**. You can select which metadata entries will be stored in the databse.
 
 .. note::
     The metadata values not provided by the user a default value would be assigned in the database.
@@ -33,7 +33,7 @@ Below you can read description of each:\
 .. note::
     All optional metadata entries will have **choices** for values in the Excel template.
 
-After you have configured your desired metadata, it's time to create an **Excel template** with desired columns representing your chosen entries.
+After the desired metadata has been configured, it's time to create an **Excel template** with desired columns representing the chosen entries.
 To do so click on **Create Sample Template** button.
 
 As an example in the figure below, I am creating a template to submit **both** *human* and *mouse* samples to organisms I defined in :ref:`Register Organism` part.
@@ -76,12 +76,12 @@ II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Now you have an Excel template with columns being the metadata you chose in previous step. For each row being each of your samples you need to provide the corresponding values.
+Now there is an Excel template with columns being the metadata chosen in the previous step. For each row that is a sample provide the corresponding values.
 
 .. note::
     Please be careful to open the Excel file with **English Excel** and **NOT** the **German Excel**.
 
-You can find the definition of each metadata entry below:
+The descriptions of different metadata entries are listed below:
 
 **Required Sample Metadata**
 
@@ -92,21 +92,21 @@ You can find the definition of each metadata entry below:
 
 
 
-* **External_ID**: The external ID to your sample *if* it is registered in other platforms such as *SRA* [1]_. If  it's not registered to any platform then leave it blak.
-* **MSD_ID**: If you want to modify metadata of your samples already registered, you can put their *MSD ID* here and fill the column values. Doing so will tell MSD to update
-  the metdata of your sample with provided *MSD ID* with new ones you are providing in this Excel template.
-* **Name**: The name you want to give your sample. It should be **unique** throughout all samples registered in the project to which origin organism belongs.
-* **Description**: A description of for each sample. It will make it easier to search through your samples using :ref:`Advanced Search` feature.
-* **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part your sample is originated. In order to get this ID you need to
-  use the search box in :ref:`Origin View`. When you found the ORID of you sample you copy that ID to this cell. For example, **1.3.7** is the ID of saliva (material) taken from Salivary Gland (localization)
+* **External_ID**: The external ID to the sample *if* it is registered in other platforms such as *SRA* [1]_. If  it's not registered to any platform then leave it blak.
+* **MSD_ID**: If you want to modify metadata of the samples already registered, you can put their *MSD ID* here and fill the column values. Doing so will tell MSD to update
+  the metdata of the sample with provided *MSD ID* with new ones you are providing in this Excel template.
+* **Name**: The name you want to give to the sample. It should be **unique** throughout all samples registered in the project to which origin organism belongs.
+* **Description**: A description of for the sample. It will make it easier to search through the  samples using :ref:`Advanced Search` feature.
+* **ORID**: ORID stands for "**Ori**gin **ID**". This ID tells MSD from which part the sample comes from. In order to get this ID you need to
+  use the search box in :ref:`Origin View`. The ORID of the sample is to be copied to this cell. For example, **1.3.7** is the ID of saliva (material) taken from Salivary Gland (localization)
   in mouth (organ). You can choose this ORID from the drop-down menu.
-* **Organism_ID**: The MSD ID of the organism from which the sample was taken. You can view your organisms of your project at :ref:`Organism View`. You can choose your organism MSD ID from the drop-down menu.
-* **Weight**: Weight of you sample.
-* **Weight_Unit**: The unit of Weight of your sample.
+* **Organism_ID**: The MSD ID of the organism from which the sample was taken. :ref:`Organism View` contains all of the organisms for the project. You can choose the organism MSD ID from the drop-down menu.
+* **Weight**: Weight of the sample.
+* **Weight_Unit**: The unit of Weight of the sample.
 * **Age**: Age of the **organism** at time of sampling.
 * **Age_Unit**: The unit of Age.
-* **Preservation**: Type of sample preservation you have used for preserving your taken samples. Choose from drop-down menu. 
-* **Sampling_Protocol_ID**: The sampling protocol that you have used for sampling and registered in :ref:`Register Protocol` step.
+* **Preservation**: Type of sample preservation you have used for preserving the taken samples. Choose from drop-down menu. 
+* **Sampling_Protocol_ID**: The sampling protocol that was used for sampling and registered in :ref:`Register Protocol` step.
 * **Collection_Date**: Date of sampling in the YYYY-MM-DD format.
 * **Collection_Time**: Time of sampling in the HH:MM format.
 * **Collection_Country**: The country where the sampling has taken place. It should be a two-letter standard code of the country according to `ISO_3166 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_.
@@ -122,23 +122,23 @@ You can find the definition of each metadata entry below:
 * **alcohol_dependance**: "Yes", "No", or not assigned ("NA"). Choose from the drop-down menu.
 * **physical_activity**: "Yes", "No", or not assigned ("NA"). Choose from the drop-down menu.
 * **regular_medication**: "Yes" or "No". Choose from the drop-down menu.
-* **regular_medication_categories**: If the value of *regular_medication* columns is "Yes" then you choose one option here. Otherwise, leave it blank.
+* **regular_medication_categories**: If the value of *regular_medication* columns is "Yes" choose one option here. Otherwise, leave it blank.
 * **antibiotics**: "Yes" or "No". Choose from the drop-down menu.
 * **probiotics**: "Yes" or "No". Choose from the drop-down menu.
 * **supplements**: "Yes" or "No". Choose from the drop-down menu.
 * **bristol_score**: The bristol score for stool samples. If the sample is not stool, leave it blank.
 * **tissue_available**: "Yes" or "No". Choose from the drop-down menu. If there is still some tissue, from which samples are taken, stored.
 * **tissue_type**: Which method was used for taking tissue. "Biopsy" or "Resection"
-* **human_diet_category**: To which diet category you can assign the organism's (human) diet at time of sampling.
-* **coffee**: "Yes", "No", or not assigned ("NA"). If the organism (human) was taking coffee at time of sampling.
+* **human_diet_category**: To which diet category can  the patient be assigned at the time of sampling.
+* **coffee**: "Yes", "No", or not assigned ("NA"). If the patient was taking coffee at the time of sampling.
 
 
 **Mouse/Pig Sample Metadata**
 
 
 * **feed_provider**: Type of feed provider. "Sniff", "Altromin" and "Other"
-* **mouse_diet_category**: Type of diet the which your organism (mouse) was taking at time of sampling.
-* **animal_facility**: To which animal facility within CRC, your organism is coming. Choose from the drop-down menu.
+* **mouse_diet_category**: Type of diet the which the organism (mouse) was taking at time of sampling.
+* **animal_facility**: To which animal facility within CRC, the organism is coming. Choose from the drop-down menu.
 * **housing_hygiene_level**: Choose from the drop-down menu.
 * **caging**: Type of caging. Choose from the drop-down menu.
 * **basal_microbiota**: Choose from the drop-down menu.
@@ -148,11 +148,11 @@ You can find the definition of each metadata entry below:
 **Custom Sample Metadata**
 
 
-After all your selected metadata you can place any number of columns with your desired name as *custom metadata* and provide related value to them 
-for each of your samples. These custom metadata is stored and you can see and export it for downstream analysis.
+After all the columns of selected metadata you can place any number of *custom metadata* columns with any name and provide related value to them 
+for each of the samples. These custom metadata entries are stored and available for export for downstream analysis.
 
-* **Custom_1**: You can rename these default columns to hold metadata entry name you desire.
-* **Custom_1**: You can rename these default columns to hold metadata entry name you desire.
+* **Custom_1**: You can rename these default columns to hold metadata entry to any name.
+* **Custom_1**: You can rename these default columns to hold metadata entry to any name.
 
 You can also add any number of columns after all MSD standard metadata and provide values for them.
 
@@ -240,9 +240,9 @@ You see and example of filled sample template Excel below:
 III. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Now that we have filled the Excel template it's time to upload it and register our samples to MSD. In order to upload your filled Excel you need to go to 
-**Submit** tab -> **Samples** sub-tab -> **Register Template**. There you can *Browse* your computer for your filled Excel template and by clicking 
-**Upload Samples** button you introduce your samples to MSD.
+Now that we have filled the Excel template it's time to upload it and register our samples to MSD. In order to upload the filled Excel you need to go to 
+**Submit** tab -> **Samples** sub-tab -> **Register Template**. There you can *Browse* your computer for the filled Excel template, clicking 
+**Upload Samples** button will introduce the samples to MSD.
 
 
 
@@ -253,6 +253,6 @@ Now that we have filled the Excel template it's time to upload it and register o
     :class: sample_registration_scsh
 
 
-When you are done with sample uploading you will be shown a message like "Your samples have been successfully uploaded!" and you will be redirected to :ref:`Datasets 16S View`
+When the sample uploading is done, a message will be shown like "Your samples have been successfully uploaded!" and you will be redirected to :ref:`Datasets 16S View`
 
 

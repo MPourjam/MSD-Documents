@@ -5,18 +5,18 @@ Defining Organisms
 ------------------
 
 
-So far we have submitted prerequisites to registration of **Organisms**, **Samples** and **Datasets**.
-Registration of Organism and then Samples **always comes before datasets**. It is *recommended* that you define your organisms at MSD during the start of
-your project and that you define samples at MSD for each sampling attempt. Having done 
-that will help not only by tracking and documenting your project but also by registration of datasets.
+So far the prerequisites to registration of **Organisms**, **Samples** and **Datasets** are submitted.
+Registration of Organism and then Samples **always comes before datasets**. It is *recommended* that you define organisms for the experiment at MSD during the start of
+the project and that you define samples at MSD for each sampling attempt. Having done 
+that will help not only by tracking and documenting the project but also by registration of datasets.
 
 
-In order to register your organisms you need to follow **three** major steps. Firstly you need to **Create Template** 
+In order to register the organisms you need to follow **three** major steps. Firstly you need to **Create Template** 
 and then **Register Template**. For registration of *Samples* and *Datasets* these two major steps are followed 
 as well.
 
 .. note::
-    In order to submit your samples and make the relation to their corresponding organisms, you need to go to **Submit** tab -> **Organisms** subtab.
+    Go to **Submit** tab -> **Organisms** subtab, in order to submit the samples and make the relation to their corresponding organisms.
 
 
 I. Create Template
@@ -39,35 +39,34 @@ and **Mouse Required Metadata**.
     :alt: Create Organism Template
     :class: org_registration_scsh
 
-    By clicking on **Create Organism Template** you download an *Excel template*.
+    Clicking on **Create Organism Template** will  download an *Excel template*.
 
 
 II. Fill in the Template
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to introduce your organisms to `MSD <https://www.misigdb.org/>`_, you need to fill the rows with downloaded Excel with selected metadata as columns.
+In order to introduce the organisms to `MSD <https://www.misigdb.org/>`_, the rows of the downloaded Excel must be filled with the selected metadata as columns.
 
 .. note::
     Please be careful to open the Excel file with **English Excel** and **NOT** the **German Excel**.
 
 
-You can find description of each column as below:
+The description of each column is below:
 
 .. _General Organism Metadata:
 
 
 *General Required Metadata*
 
-* **External_ID**: If the organism you're submitting has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
+* **External_ID**: If the organism has been registered on any other platform and has an ID, then you can fill this cell with that ID. This field is not required.
 * **MSD_ID**: If a value for this cell is provided MSD tries to find that organism with given *MSD_ID* and update its Metadata with current given metadata in the Excel.
-  You can find information about your registered organisms at :ref:`Organisms View`.
-* **Name**: The name you want to give to your organism.
-* **Description**: Add some extra information to your organism. It will help you later to filter your organisms.
-* **Project_ID**: The MSD ID of the project this organism belongs to. You can find information about your projects
-  at :ref:`Projects View`.
-* **Species**: This cell should contain the scientific name of **type** of organism you are defining. You have three options: *Mus Musculus*,
+  :ref:`Organisms View` contains the information about  the registered organisms.
+* **Name**: The name you want to give to the organism.
+* **Description**: Add some extra information to the organism. It will help you later to filter them.
+* **Project_ID**: The MSD ID of the project this organism belongs to. :ref:`Projects View` contains the information about all of your uploaded projects.
+* **Species**: This cell should contain the scientific name of **type** of the organism you are defining. There are three options: *Mus Musculus*,
   *Sus Scrofa*, *Homo sapiens*. **Note**: Currently pig organism are not supported.
-* **Sex**: The gender of your organism : **Male** or **Female**
+* **Sex**: The sex of the organism : **Male** or **Female**
 
 .. figure:: /media/Organism_Fill_Template_General_Metadata.png
     :align: center
@@ -80,12 +79,12 @@ You can find description of each column as below:
 
 *Human Required Metadata*
 
-According to the type of organism you are submitting you need to save the related metadata. If you are defining **human** organisms, fill the following metadata:
+According to the type of organism you are submitting the related metadata should be saved . If you are defining **human** organisms, fill the following metadata:
 
 * **Place of Birth**: Choose related regions from the drop-down menu.
-* **Medical History**: If there is specific information about the medical history of your organism then add it here. No more than **100** characters.
-* **IBD**: If your organism has been diagnosed with *IBD*. *Yes* or *No*
-* **Cancer**: If your organism has been diagnosed with *cancer*. *Yes* or *No*
+* **Medical History**: If there is specific information about the medical history of the organism then add it here. No more than **100** characters.
+* **IBD**: If the organism has been diagnosed with *IBD*. *Yes* or *No*
+* **Cancer**: If the organism has been diagnosed with *cancer*. *Yes* or *No*
 
 .. figure:: /media/Organism_Fill_Template_Human_metadata.png
     :align: center
@@ -102,7 +101,7 @@ According to the type of organism you are submitting you need to save the relate
 
 If you are submitting **mouse** organisms then fill the following only.
 
-* **General Genotype**: Choose genotype of your organism from the drop-down list.
+* **General Genotype**: Choose genotype of the organism from the drop-down list.
 * **Genetic Modification**: Choose type of genetic modification from the drop-down list.
 
 .. figure:: /media/Organism_Fill_Template_Mouse_Metadata.png
@@ -161,8 +160,8 @@ In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. B
     :class: org_registration_scsh
 
 
-After clicking on *Upload Organisms* you'll be shown a message and redirected to :ref:`Dataset Register`.
-By clicking on **Organisms** tab you can see your newly uploaded *oranisms*.
+After clicking on *Upload Organisms* you will be shown a message and redirected to :ref:`Dataset Register`.
+In the **Organisms** newly uploaded *oranisms* will be shown.
 
 
 .. figure:: /media/Organism_View_Table.png

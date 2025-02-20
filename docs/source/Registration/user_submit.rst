@@ -31,7 +31,7 @@ In order to create you account at MSD follow the steps below:
     :alt: User Register Form
     :class: user_registration_scsh
 
-    - **Activation Reason**: This is the reason upon which administrator decides whether to activate your account or not. It's suggested to include your subproject within CRC1371.
+    - **Activation Reason**: This is the reason upon which administrator decides whether to activate your account or not. Please include your subproject within CRC1371.
 
 
 
