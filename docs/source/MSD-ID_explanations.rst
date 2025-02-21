@@ -12,10 +12,10 @@ and some organisms and ultimately to a project. For each entity in the table :re
    :header: "Entity Name", "Entity Type", "Entity Explanation","Short MSD ID", "Long MSD ID", "ID Explanation"
    :widths: 5, 10, 10, 20
 
-    "My_Project", "Project", "Your defined project to which you have uploaded datasets", **"P1"**, **"P1"**, "Project ID starts with **P** followed by a number"
-    "Mouse_1", "Organism", "Mouse number 1 for which you generate data in the project ", **"O1"**, **"P1O1"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
-    "Mouse_2", "Organism", "Mouse number 2 for which you generate data in the project ", **"O2"**, **"P1O2"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
-    "Mouse_3", "Organism", "Mouse number 3 for which you generate data in the project ", **"O3"**, **"P1O3"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
+    "My_Project", "Project", "User defined project for dataset upload", **"P1"**, **"P1"**, "Project ID starts with **P** followed by a number"
+    "Mouse_1", "Organism", "Mouse number 1 for which user will generate data in the project ", **"O1"**, **"P1O1"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
+    "Mouse_2", "Organism", "Mouse number 2 for which user will generate data in the project ", **"O2"**, **"P1O2"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
+    "Mouse_3", "Organism", "Mouse number 3 for which user will generate data in the project ", **"O3"**, **"P1O3"**, "Organism ID starts with **O** followed by a number. Long ID includes project ID as well."
     "M1_Biopsy_1", "Sample", "Biopsy sample number 1 from Mouse number 1", **"S1"**, **"P1O1S1"**, "Sample ID starts with **S** followed by a number. Long ID includes organism ID as well."
     "M2_Biopsy_1", "Sample", "Biopsy sample number 1 from Mouse number 2", **"S2"**, **"P1O2S5"**, "Sample ID starts with **S** followed by a number. Long ID includes organism ID as well."
     "M3_Biopsy_1", "Sample", "Biopsy sample number 1 from Mouse number 3", **"S3"**, **"P1O3S9"**, "Sample ID starts with **S** followed by a number. Long ID includes organism ID as well."

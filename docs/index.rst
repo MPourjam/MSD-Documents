@@ -16,7 +16,7 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
 
 .. note::
 
-   This project is under active development and thus it is subject change.
+   This project is under active development and thus it is subject to change.
 
 
 
@@ -28,3 +28,21 @@ data (16S, 18S, ITS, Metagenomics, Proteomics, Metabolomics, Transcriptomics), a
    source/quickstart
    source/View/views_all
    source/View/analysis_result
+
+Prequisites for uploading the datasets
+-------------------------------
+   There are some steps in using MSD that are trivial but take time if not thought of in advance. 
+   Below is a comprehensive list of such steps to aleviate any potential delays:
+   #. The users must be a member of CRC1371 consortium to get registrated. 
+   #. After the initial registration there will be a waiting time for confirmation of the account manually performed by MSD that
+      will not start till the user confirms the email address, so make an account in advance. It is also helpful to put information
+      in the **Activation Reason** field to speed up the confirmation process.
+   #. Define organisms at MSD at the same time as the project they will be investigated in.
+   #. Define separate samples for each sampling attempt.
+   #. The Data provided in the samples must correspond to the status at the time of taking the sample.
+   #. For each of the 16S datasets ask the sequencing facility to provide the information about forward and reverse primers used in the sequencing.
+      The information is required to registrate this datasets for MSD.
+   #. For registration of a metabolomics dataset it is required to be registered as a metabolomics group operator at MSD.  So contact MSD administrator to be added in this group as soon as possible. 
+   #. It is recommended to submit metabolomics sample to MSD before sending it in to the metabolomics lab. Using the MSD ID for the
+      metabolomics run will help the further process of analysis and will help the user find the needed datsets with **Advanced Search**
+   #. Get the information about what normalization methods the metabolomics facility used.
