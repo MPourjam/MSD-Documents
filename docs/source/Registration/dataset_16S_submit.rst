@@ -57,7 +57,7 @@ Below is the description of each column and their valid values:
   This information is to be retrieved from the sequencing facility.
 * **DNA_Isolation**: Choose the DNA Isolation methods used for the samples before sequencing from the drop-down menu.
 * **Forward_Primer**: Choose the forward primer used for sequencing library preparation. This information is to be retrieved from the sequencing facility.
-* **Forward_Primer_Seq**: This will be the sequence ofthe chosen forward primer. It gets selected according to *Forward_Primer*
+* **Forward_Primer_Seq**: This will be the sequence of the chosen forward primer. It gets selected according to *Forward_Primer*
   value automatically.
 * **Reverse_Primer**: Choose the reverse primer used for sequencing library preparation. This information is to be retrieved from the sequencing facility.
 * **Reverse_Primer_Seq**: This will be the sequence of the chosen reverse primer. It gets selected according to *Forward_Primer*
