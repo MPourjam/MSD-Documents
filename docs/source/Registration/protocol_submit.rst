@@ -24,7 +24,7 @@ The definition of different proton helps you with protocol definition.
 
 .. figure:: /media/Protocol_Register_Form.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Protocol Register Form
     :class: prot_registration_scsh
 
@@ -38,7 +38,7 @@ clicking on **Extension** and choosing one of **already submitted** protocols at
 
 .. figure:: /media/Protocol_Register_Form_Extension.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Protocol Extension Register Form
     :class: prot_registration_scsh
 

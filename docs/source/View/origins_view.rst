@@ -12,10 +12,9 @@ sample's origin the best.
 
 .. figure:: /media/Origin_view.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Origin View
     :class: ori_view_scsh
 
     An example of a search for ORIDs of samples originated from "Saliva"
-
 

@@ -17,7 +17,7 @@ In order to create you account at MSD follow the steps below:
 
 .. figure:: /media/User_Register.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: User Register
     :class: user_registration_scsh
 
@@ -27,7 +27,7 @@ In order to create you account at MSD follow the steps below:
 
 .. figure:: /media/User_Register_Form.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: User Register Form
     :class: user_registration_scsh
 
@@ -39,7 +39,7 @@ In order to create you account at MSD follow the steps below:
 
 .. figure:: /media/User_Register_activation_email.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Activation Email
     :class: user_registration_scsh
 
@@ -50,7 +50,7 @@ start using MSD. You will be notified by an email after account approval.
 
 .. figure:: /media/User_Register_activation_email.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Account Approval Email
     :class: user_registration_scsh
 

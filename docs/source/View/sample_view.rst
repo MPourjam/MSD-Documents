@@ -10,7 +10,6 @@ the column named **MSD_ID** contains samples IDs of each registered sample.
 
 
 .. image:: /media/SamplesView.png
-   :scale: 100 %
+   :scale: 50 %
    :alt: Samples View
-
 

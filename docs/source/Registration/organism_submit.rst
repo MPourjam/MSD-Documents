@@ -35,7 +35,7 @@ and **Mouse Required Metadata**.
 
 .. figure:: /media/Organims_Create_Template.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Create Organism Template
     :class: org_registration_scsh
 
@@ -70,7 +70,7 @@ The description of each column is below:
 
 .. figure:: /media/Organism_Fill_Template_General_Metadata.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - General Metadata
     :class: org_registration_scsh
 
@@ -88,7 +88,7 @@ According to the type of organism you are submitting the related metadata should
 
 .. figure:: /media/Organism_Fill_Template_Human_metadata.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - Human Metadata
     :class: org_registration_scsh
 
@@ -106,7 +106,7 @@ If you are submitting **mouse** organisms then fill the following only.
 
 .. figure:: /media/Organism_Fill_Template_Mouse_Metadata.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - Mouse Metadata
     :class: org_registration_scsh
 
@@ -123,7 +123,7 @@ After finding the **Project_ID** of the project the organisms will be defined in
 
 .. figure:: /media/Organism_Fill_Template_Example_Mice.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - Mouse Metadata - Example
     :class: org_registration_scsh
 
@@ -134,7 +134,7 @@ After finding the **Project_ID** of the project the organisms will be defined in
 
 .. figure:: /media/Organism_Fill_Template_Example_Human.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - Human Metadata - Example
     :class: org_registration_scsh
 
@@ -155,7 +155,7 @@ In order to do so we go to *Submit* tab -> *Organisms* -> *Register Template*. B
 
 .. figure:: /media/Organism_Upload_Template.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Submit - Upload Template
     :class: org_registration_scsh
 
@@ -166,9 +166,8 @@ In the **Organisms** newly uploaded *oranisms* will be shown.
 
 .. figure:: /media/Organism_View_Table.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Table
     :class: org_view_scsh
 
     For explanation of the table see :ref:`Organisms View`.
-

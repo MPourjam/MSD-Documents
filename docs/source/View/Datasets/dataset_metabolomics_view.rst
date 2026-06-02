@@ -11,6 +11,5 @@ assigned to corresponding sample.
 
 
 .. image:: /media/MetabolomicsDatasetView.png
-   :scale: 100 %
+   :scale: 50 %
    :alt: Metabolomics Dataset View
-

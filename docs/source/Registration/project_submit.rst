@@ -22,9 +22,8 @@ Under **Submit** tab:
 
 .. figure:: /media/Project_Register_Form.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Project Register Form
     :class: prj_registration_scsh
 
     An example of project creation form. After new project is created you will be redirected to :ref:`Datasets 16S View`.
-

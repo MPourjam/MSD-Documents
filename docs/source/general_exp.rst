@@ -47,5 +47,5 @@ The table above shows that each mouse has 4 samples and each sample has 2 datase
 
 
 .. image:: /media/crc_base.jpg
-   :scale: 100 %
+   :scale: 50 %
    :alt: MSD Database Structure

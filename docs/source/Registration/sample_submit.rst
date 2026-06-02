@@ -41,7 +41,7 @@ An example in the figure below, creates a template to submit **both** *human* an
 
 .. figure:: /media/Sample_Create_Template_required.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Create Organism Template - Required Metadata
     :class: sample_registration_scsh
 
@@ -50,7 +50,7 @@ An example in the figure below, creates a template to submit **both** *human* an
 
 .. figure:: /media/Sample_Create_Template_human.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Create Organism Template - Human Metadata
     :class: sample_registration_scsh
 
@@ -60,7 +60,7 @@ An example in the figure below, creates a template to submit **both** *human* an
 
 .. figure:: /media/Sample_Create_Template_mouse.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Create Organism Template - Mouse Metadata
     :class: sample_registration_scsh
 
@@ -161,7 +161,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_-ORID.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - Until ORID
     :class: sample_registration_scsh
 
@@ -170,7 +170,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_OrgID-Preservation.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - From Organism ID to Preservation Type
     :class: sample_registration_scsh
 
@@ -179,7 +179,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_SampProt-GPS.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from Sampling_Protocol_ID to *Collection_Location_(GPS)*
     :class: sample_registration_scsh
 
@@ -188,7 +188,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_Cancer-alcohol.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from cancer_related_symptoms to alcohol_dependance
     :class: sample_registration_scsh
 
@@ -198,7 +198,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_PhysicalActivity-probiotics.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from physical_activity to *probiotics*
     :class: sample_registration_scsh
 
@@ -208,7 +208,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_Supplement-Coffee.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from supplements to coffee
     :class: sample_registration_scsh
 
@@ -218,7 +218,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_feedprovider-caging.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from feed_provider to caging
     :class: sample_registration_scsh
 
@@ -228,7 +228,7 @@ You see and example of filled sample template Excel below:
 
 .. figure:: /media/Sample_register_example_basal_microbioata-cust2.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from basal_microbiota to Custom_2
     :class: sample_registration_scsh
 
@@ -248,11 +248,10 @@ Now that we have filled the Excel template it's time to upload it and register o
 
 .. figure:: /media/Sample_upload_template.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Sample Template Upload
     :class: sample_registration_scsh
 
 
 When the sample uploading is done, a message will be shown like "Your samples have been successfully uploaded!" and you will be redirected to :ref:`Datasets 16S View`
-
 

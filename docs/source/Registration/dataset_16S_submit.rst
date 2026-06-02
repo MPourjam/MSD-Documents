@@ -89,7 +89,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_DISID-Acc.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from DIS ID to Accession
     :class: dat16s_registration_scsh
 
@@ -100,7 +100,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_Seq-Paired.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from Sequencer to Paired Sequencing
     :class: dat16s_registration_scsh
 
@@ -110,7 +110,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_Forw-DNAIso.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from Forward File name to DNA Isolation
     :class: dat16s_registration_scsh
 
@@ -120,7 +120,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_ForwP-RunLength.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from forward primer to run length
     :class: dat16s_registration_scsh
 
@@ -130,7 +130,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_Amp-SpikeAmount.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from amplification step to spike amount
     :class: dat16s_registration_scsh
 
@@ -141,7 +141,7 @@ An example of filled dataset in Excel  as below:
 
 .. figure:: /media/Dataset_register_SampleW-Cust2.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Filled Template - from Sample Weight to Custom 2
     :class: dat16s_registration_scsh
 
@@ -154,5 +154,4 @@ IV. Uploading Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 It's time to upload the Excel template and the zip file containing all the fastq (or fastq.gz) files.
-
 

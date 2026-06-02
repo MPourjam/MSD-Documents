@@ -37,6 +37,6 @@ Make sure to check the **Status** column to know when the job was finished or if
 
 .. figure:: /media/Jobs-Page.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Jobs Table
     :class: jobs_table_view

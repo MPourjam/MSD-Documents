@@ -23,6 +23,6 @@ and you can take these actions:
 
 .. figure:: /media/Organism_View_Table.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Organism Table
     :class: org_view_scsh

@@ -24,7 +24,7 @@ added to the group please contact MSD administrator to do so.
 
 .. figure:: /media/MetabolomicsRunSubmission-TabView.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: View of Metabolomics Run Submission Tab
     :class: metabolites_run_submission
 
@@ -40,7 +40,7 @@ to MSD. The status of each run is displayed there in the table including **RUN_I
 
 .. figure:: /media/MetabolomicsRunSubmissionForm.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Metabolomics Run Submission Form
     :class: metabolites_run_submission
 
@@ -100,7 +100,7 @@ containing units of measurements for each metabolite.
 
 .. figure:: /media/MetabolitesExcelScreenShot1.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: An example of metabolites Excel received from metabolomic facility
     :class: metabolites_submission
 
@@ -112,7 +112,7 @@ containing units of measurements for each metabolite.
 
 .. figure:: /media/MetabolitesExcelScreenShot2.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: An example of metabolites Excel with added custom metabolites
     :class: metabolites_submission
 
@@ -131,7 +131,7 @@ You can follow the steps as shown in the picture to download it.
 
 .. figure:: /media/MetabolomicsCreateTemplate.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: How to download metabolomics data to MSD
     :class: metabolites_submission
 
@@ -171,7 +171,7 @@ which includes all the metabolites assigned to sample with ID of *P10O2S3* in \
 
 .. figure:: /media/MetabolomicsDataTemplate.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Metabolomics Dataset Submission Template
     :class: metabolites_submission
 
@@ -184,7 +184,7 @@ described above.
 
 .. figure:: /media/MetabolomicsUpload.png
     :align: center
-    :scale: 100 %
+    :scale: 50 %
     :alt: Metabolomics Datasets Upload
     :class: metabolites_submission
 
