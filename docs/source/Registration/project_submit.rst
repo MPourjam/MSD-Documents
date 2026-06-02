@@ -20,6 +20,7 @@ Under **Submit** tab:
 #. **Availability Checkbox** will make other users of MSD able to see the description of the project in their :ref:`Dashboard` and ask for permission to have access to the project datasets.
 #. Click on **Create Project** to finalize the project creation.
 
+
 .. figure:: /media/Project_Register_Form.png
     :align: center
     :scale: 50 %
@@ -27,3 +28,7 @@ Under **Submit** tab:
     :class: prj_registration_scsh
 
     An example of project creation form. After new project is created you will be redirected to :ref:`Datasets 16S View`.
+
+.. important::
+    **Acronym** should be the project ID in CRC1371. It is **crucial** to keep the project acronym consistent with the project ID in CRC1371 for proper organization and tracking of projects across platforms.
+
