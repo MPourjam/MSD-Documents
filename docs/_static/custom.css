@@ -1,0 +1,6 @@
+/* Keep the docs column centered while using more of the available width. */
+.wy-nav-content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
